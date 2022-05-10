@@ -1,4 +1,3 @@
-# Hello-World
-Hello World tutorial
+#NCP File Repository
 
-I'm just learning how to do this to add files somewhere so that I can run a Hero Games Systems game
+Files uses by Jerry Varvel for the New Champions Protocal games.
