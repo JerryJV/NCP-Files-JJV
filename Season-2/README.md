@@ -1,1 +1,3 @@
-Read me file for Season 2 folders
+#Season 2 Folders#
+
+These folders hold files used in New Champions Protocal - Season 2
