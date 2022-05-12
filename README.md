@@ -1,3 +1,3 @@
 #NCP File Repository
 
-Files uses by Jerry Varvel for the New Champions Protocal games.
+Files used or created by Jerry Varvel for the New Champions Protocal games.
