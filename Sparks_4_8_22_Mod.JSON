@@ -112,7 +112,7 @@
 "martialArts":[	
 	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
 "rolls":[
-	{"name":"Cyber Control To Hit","uid": 1625243583932,"gameEdition": 6,"tool": "OMCV to hit","diceMod": 0,"dice": 3,"halfDice": false,"killingAttack": false,"targetNumber": 0,"targetCheck": false,"strMod": false,"stunMultiplierMod": 0,"toHit": true."useOCV":false},
+	{"name":"Cyber Control To Hit","uid":1,"gameEdition": 6,"tool": "OMCV to hit","diceMod": 0,"dice": 3,"halfDice": false,"killingAttack": false,"targetNumber": 0,"targetCheck": false,"strMod": false,"stunMultiplierMod": 0,"toHit": true."useOCV":false},
 	{"name":"Cyber Control - MindControl","uid":1,"gameEdition":6,"tool":"Possession Mind Control 58 pts, Telepathy 48 pts, 8 end.","diceMod":58,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"Cyber Control - Telepathy","uid":1649411295064,"gameEdition":6,"tool":"Possession Mind Control 58 pts, Telepathy 48 pts, 8 end.","diceMod":48,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"U-SHL 'Shellie＂ Blaster Pistol","uid":1648112807203,"gameEdition":6,"tool":"11d6, Blast (vs. ED) 550m, [8] end.","diceMod":0,"dice":11,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
