@@ -1,3 +1,4 @@
 #NCP File Repository
+This branch holds all the other branches for Season 2 files, Minis, JSON, HDC, Assets
 
-Files uses by Jerry Varvel for the New Champions Protocal games.
+Files used or created by Jerry Varvel for the New Champions Protocal games.
