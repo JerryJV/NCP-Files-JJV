@@ -1,5 +1,3 @@
-#Season 2 HDC Files#
+#Season 2 Folders: HDC Files
 
-This folder holds the HDC files for Season 2
-
-Created or used by Jerry Varvel
+These folders hold files used in New Champions Protocal - Season 2
