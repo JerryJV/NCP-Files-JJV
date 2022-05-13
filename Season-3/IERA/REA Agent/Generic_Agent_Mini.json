@@ -1,0 +1,80 @@
+{
+  "SaveName": "",
+  "Date": "",
+  "VersionNumber": "",
+  "GameMode": "",
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "Table": "",
+  "Sky": "",
+  "Note": "",
+  "TabStates": {},
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "XmlUI": "",
+  "ObjectStates": [
+    {
+      "GUID": "d26849",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 6.813444,
+        "posY": 0.9283493,
+        "posZ": -8.477503,
+        "rotX": 0.000529472542,
+        "rotY": 330.020233,
+        "rotZ": 1.33264675E-05,
+        "scaleX": 0.700000465,
+        "scaleY": 0.700000465,
+        "scaleZ": 0.700000465
+      },
+      "Nickname": "Generic Agent",
+      "Description": "This is a Generic Agent",
+      "GMNotes": "https://raw.githubusercontent.com/JerryJV/NCP-Files-JJV/NCP/Season-3/IERA/REA%20Agent/Combat_Sheet.JSON",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "LayoutGroupSortIndex": 0,
+      "Value": 0,
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://gist.githubusercontent.com/anonymous/dab4a6c00a6492d4fa734fb768b0609f/raw/75dce43869aecadce1df52ecf34b6266569abf18/gistfile1.txt",
+        "DiffuseURL": "https://s15.postimg.cc/jva2l2fux/terrorist_figure_texture_SAND.jpg",
+        "NormalURL": "",
+        "ColliderURL": "https://gist.githubusercontent.com/anonymous/f02b2a3aacf660d0b58adbb9e251d3e2/raw/faeb733ca714291e9eccb60a4bcb25a5871c381f/gistfile1.txt",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.01,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    }
+  ]
+}
