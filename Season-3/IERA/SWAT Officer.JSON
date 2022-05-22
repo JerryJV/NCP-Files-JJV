@@ -1,6 +1,6 @@
 {
 "appversion":"20210301",
-"exportid":"20220522180423",
+"exportid":"20220522182847",
 "name":"SWAT Officer",
 "playername":"",
 "version":3.2,
@@ -48,7 +48,7 @@
 	{"name":"Stealth ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1653248378506,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 12-"},
 	{"name":"WF ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1653248387384,"type":"Weapon Familiarity","input":"","level":"0","active":"2","base":"2","XMLID":"WEAPON_FAMILIARITY","modifiers":[],"adders":[{"XMLID":"SMALLARMS","name":"","uid":1653250271493,"cost":"2","type":"Small Arms","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"WF: Small Arms"},
 	{"name":"Deduction ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1653249943782,"type":"Deduction","input":"","level":"0","active":"3","base":"3","XMLID":"DEDUCTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Deduction 11-"},
-	{"name":"Combat Skill Levels: Police Weapons ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1653252579444,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"1","active":"3","base":"3","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with a small group of attacks","optionAlias":"with a small group of attacks","optionID":"TIGHT","text":"+1 with a small group of attacks"}],
+	{"name":"Combat Skill Levels: Police Weapons ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1653252579444,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"2","active":"6","base":"6","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with a small group of attacks","optionAlias":"with a small group of attacks","optionID":"TIGHT","text":"+2 with a small group of attacks"}],
 "talents":[],
 "perks":[
 	{"name":"Fringe Benefit ","roll":"","uid":1653250058211,"type":"Fringe Benefit","input":"","level":"0","active":"2","base":"2","XMLID":"FRINGE_BENEFIT","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1653250405256,"type":"Local Police Powers","input":"","level":"0"}]}],
@@ -57,10 +57,9 @@
 	{"name":"Hunted","roll":"","uid":1652277458845,"type":"Hunted","input":"Police Department","level":"0","active":"10","base":"10","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1653250560109,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1653250560115,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1653250560121,"type":"Motivation","input":"Watching","level":"0"},{"name":"No Name Supplied","uid":1653250560122,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
 	{"name":"Distinctive Features","roll":"","uid":1652277524667,"type":"Distinctive Features","input":"Parent Organization Uniform","level":"0","active":"5","base":"5","XMLID":"DISTINCTIVEFEATURES","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1652277644579,"type":"Concealability","input":"Easily Concealed","level":"0"},{"name":"No Name Supplied","uid":1652277644585,"type":"Reaction","input":"Noticed and Recognizable","level":"0"},{"name":"No Name Supplied","uid":1652277644591,"type":"Sensing","input":"Detectable By Commonly-Used Senses","level":"0"}]}],
 "combatlevels":[
-	{"name":"Combat Skill Levels","roll":"","uid":1653252579444,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"1","active":"3","base":"3","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+	{"name":"Combat Skill Levels","roll":"","uid":1653252579444,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"2","active":"6","base":"6","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
 "powers":[
-	{"name":"Taser Shot","uid":1653250354094,"type":"Blast","damage":"5d6","range":"var.","input":"ED","level":"5","end":"[2 rc]","active":"50","base":"25","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1653251018504,"type":"Attack Versus Alternate Defense","damage":"5d6","range":"var.","input":"full body rEDVery Common -> Rare","level":"0"},{"value":"-¼","name":"","uid":1653251096903,"type":"Limited Range","damage":"5d6","range":"var.","input":"","level":"0"},{"value":"-1","name":"","uid":1653251135742,"type":"Focus","damage":"5d6","range":"var.","input":"OAF","level":"0"},{"value":"-1","name":"","uid":1653251143637,"type":"Charges","damage":"5d6","range":"var.","input":"2","level":"0"}],"adders":[]},
-	{"name":"Colt M4 Carbine","uid":1653250862228,"type":"Killing Ranged","damage":"2d6","range":"300m","input":"PD","level":"2","end":"[30]","active":"37","base":"30","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1653257427747,"type":"Focus","damage":"2d6","range":"300m","input":"OAF","level":"0"},{"value":"-¼","name":"","uid":1653257427812,"type":"Charges","damage":"2d6","range":"300m","input":"12","level":"0"},{"value":"-¼","name":"","uid":1653257427814,"type":"Real Weapon","damage":"2d6","range":"300m","input":"","level":"0"},{"value":"+¼","name":"","uid":1653257427815,"type":"+1 Increased STUN Multiplier","damage":"2d6","range":"300m","input":"","level":"1"}],"adders":[]},
+	{"name":"Colt M4 Carbine","uid":1653250862228,"type":"Killing Ranged","damage":"2d6","range":"300m","input":"PD","level":"2","end":"[30]","active":"52","base":"30","XMLID":"RKA","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1653258995708,"type":"Focus","damage":"2d6","range":"300m","input":"OAF","level":"0"},{"value":"-¼","name":"","uid":1653258995773,"type":"Charges","damage":"2d6","range":"300m","input":"12","level":"0"},{"value":"-¼","name":"","uid":1653258995775,"type":"Real Weapon","damage":"2d6","range":"300m","input":"","level":"0"},{"value":"+¼","name":"","uid":1653258995776,"type":"+1 Increased STUN Multiplier","damage":"2d6","range":"300m","input":"","level":"1"},{"value":"+½","name":"","uid":1653258995786,"type":"Autofire","damage":"2d6","range":"300m","input":"5 Shots","level":"0"},{"value":"-½","name":"","uid":1653258995794,"type":"Required Hands","damage":"2d6","range":"300m","input":"Two-Handed","level":"0"},{"value":"-¼","name":"","uid":1653259001661,"type":"Beam","damage":"2d6","range":"300m","input":"","level":"0"}],"adders":[]},
 	{"name":"No Name Supplied","uid":1652202689823,"type":"Flash","damage":"3d6","range":"","input":"Sight Group","level":"3","end":"[4]","active":"45","base":"15","XMLID":"FLASH","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":true,"senseaffecting":true,"special":false},"modifiers":[{"value":"-½","name":"","uid":1653252263659,"type":"No Range","damage":"3d6","range":"","input":"","level":"0"},{"value":"-1","name":"","uid":1653252263686,"type":"Focus","damage":"3d6","range":"","input":"OAF","level":"0"},{"value":"-1","name":"","uid":1653252263751,"type":"Charges","damage":"3d6","range":"","input":"4","level":"0"},{"value":"-¼","name":"","uid":1653252263765,"type":"Limited Power","damage":"3d6","range":"","input":"Power loses about a fourth of its effectiveness","level":"0"},{"value":"+0","name":"","uid":1653252263787,"type":"Attack Versus Alternate Defense","damage":"3d6","range":"","input":"Solid Eye CoveringUncommon -> Rare","level":"0"},{"value":"+2","name":"","uid":1653252263789,"type":"Delayed Recovery","damage":"3d6","range":"","input":"","level":"0"}],"adders":[]},
 	{"name":"Tonfa","uid":1653251982245,"type":"Hand-To-Hand Attack","damage":"3d6","range":"","input":"","level":"3","end":"0","active":"22","base":"15","XMLID":"HANDTOHANDATTACK","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1653252503710,"type":"Hand-To-Hand Attack","damage":"3d6","range":"","input":"","level":"0"},{"value":"+½","name":"","uid":1653252503715,"type":"Reduced Endurance","damage":"3d6","range":"","input":"0 END","level":"0"},{"value":"-1","name":"","uid":1653252503743,"type":"Focus","damage":"3d6","range":"","input":"OAF","level":"0"},{"value":"-¼","name":"","uid":1653252511247,"type":"Real Weapon","damage":"3d6","range":"","input":"","level":"0"}],"adders":[]},
 	{"name":"Custom Field Armor","uid":1653248785247,"type":"Resistant Protection","damage":"","range":"","input":"","level":"8","end":"0","active":"12","base":"12","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1653248785204,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"},{"value":"-¼","name":"","uid":1653248785218,"type":"Limited Power","damage":"","range":"","input":"Power loses about a fourth of its effectiveness","level":"0"},{"value":"-½","name":"","uid":1653248785232,"type":"Limited Power","damage":"","range":"","input":"Power loses about a third of its effectiveness","level":"0"}],"adders":[]},
@@ -75,7 +74,6 @@
 	},{"name":"Martial Block","gameEdition":6 ,"ocvMod":2,"dcvMod":2,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Block, Abort","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Martial Block:½ Phase, +2 OCV, +2 DCV, Block, Abort","rngMod":0, "abort":true
 	}],
 "rolls":[
-	{"name":"Taser Shot","uid":1653250354094,"gameEdition":6,"tool":"5d6, Blast (vs. ED) var., [2 rc] end.","diceMod":0,"dice":5,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"Colt M4 Carbine","uid":1653250862228,"gameEdition":6,"tool":"2d6, Killing Ranged (vs. PD) 300m, [30] end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":1},
 	{"name":"No Name Supplied","uid":1652202689823,"gameEdition":6,"tool":"3d6, Flash (vs. Sight Group) , [4] end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"Tonfa","uid":1653251982245,"gameEdition":6,"tool":"3d6, Hand-To-Hand Attack , 0 end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
@@ -83,134 +81,4 @@
 	{"name":"Handcuffs","uid":1653248838222,"gameEdition":6,"tool":"3d6, 3 PD/3 ED, Entangle , [1 rc] end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
 "lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
