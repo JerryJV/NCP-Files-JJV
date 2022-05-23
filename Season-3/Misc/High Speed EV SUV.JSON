@@ -1,0 +1,184 @@
+{
+"appversion":"20210301",
+"exportid":"20220522221721",
+"name":"High Speed EV SUV",
+"playername":"",
+"version":3.2,
+"edition":6,
+"stats":{
+"siz":{"value":4,"roll":"10-","shortname":"siz","name":"Size","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":"Length 5.04m,  Width 2.52m,  Height 2.52m,  Volume 32m½3  Mass 1.6 ton,  OCV +2,  KB -4"},
+"str":{"value":35,"roll":"16-","shortname":"str","name":"Strength","current":"primary","primary":{"value":35,"roll":"16-","mod":0},"secondary":{"value":35,"roll":"16-","mod":0},"notes":"HTH Damage 7d6  END [3]"},
+"dex":{"value":14,"roll":"12-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":14,"roll":"12-","mod":0},"secondary":{"value":14,"roll":"12-","mod":0},"notes":""},
+"con":{"value":0,"roll":"","shortname":"con","name":"Constitution","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"int":{"value":0,"roll":"","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"ego":{"value":0,"roll":"","shortname":"ego","name":"Ego","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":0,"roll":"","shortname":"pre","name":"Presence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"spd":{"value":3,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":"Phases: 4, 8, 12"},
+"ocv":{"value":3,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":3,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":0,"roll":"","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"dmcv":{"value":0,"roll":"","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pd":{"value":5,"roll":"10-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":"5 PD (5 rPD)"},
+"pdr":{"value":5,"roll":"10-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":"5 PD (5 rPD)"},
+"ed":{"value":4,"roll":"10-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":"4 ED (4 rED)"},
+"edr":{"value":4,"roll":"10-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":"4 ED (4 rED)"},
+"per":{"value":0,"roll":"","shortname":"per","name":"Perception","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"rec":{"value":0,"roll":"","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"body":{"value":14,"roll":"12-","shortname":"body","name":"Body","current":"primary","primary":{"value":14,"roll":"12-","mod":0},"secondary":{"value":14,"roll":"12-","mod":0},"notes":""},
+"end":{"value":0,"roll":"","shortname":"end","name":"Endurance","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"stun":{"value":0,"roll":"","shortname":"stun","name":"Stun","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"52m","noncombat":"208m","primary":{"combat":{"description":"52m","value":52},"noncombat":{"description":"208m","value":208}},"secondary":{"combat":{"description":"52m","value":52},"noncombat":{"description":"208m","value":208}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"2m","noncombat":"4m","primary":{"combat":{"description":"2m","value":2},"noncombat":{"description":"4m","value":4}},"secondary":{"combat":{"description":"2m","value":2},"noncombat":{"description":"4m","value":4}},"icon":"ui_swim","notes":""}},
+"skills":[
+	{"name":"Perception ","roll":"","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception "}],
+"talents":[],
+"perks":[],
+"disads":[],
+"combatlevels":[],
+"powers":[
+	{"name":"Motorized Wheeled Vehicle: Class 2 Heavy EV Motor","uid":1653272735150,"type":"Ground Movement","damage":"","range":"","input":"","level":"40","end":"","active":"45","base":"45","XMLID":"RUNNING","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1½","name":"","uid":1653273057636,"type":"Focus","damage":"","range":"","input":"OAF","level":"0"},{"value":"-0","name":"","uid":1653273057720,"type":"Charges","damage":"","range":"","input":"1","level":"0"},{"value":"-¼","name":"","uid":1653273057741,"type":"Limited Maneuverability","damage":"","range":"","input":"Only 2 turns per Phase at Combat speed; only 1 turn per Phase at Noncombat speed","level":"0"},{"value":"-¼","name":"","uid":1653273057743,"type":"Only On Appropriate Terrain","damage":"","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1653273057603,"type":"x2 Noncombat","damage":"","range":"","input":"","level":"1"}]},
+	{"name":"Reinforced Self Inflating Tires","uid":1653272264544,"type":"Custom Power","damage":"","range":"","input":"","level":"10","end":"1","active":"10","base":"20","XMLID":"CUSTOMPOWER","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":true,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1653272264532,"type":"Body-Affecting Power","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Radio","uid":1653272320378,"type":"Radio Perception/Transmission","damage":"","range":"","input":"","level":"0","end":"0","active":"10","base":"10","XMLID":"RADIOPERCEIVETRANSMIT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-1½","name":"","uid":1653272320375,"type":"Focus","damage":"","range":"","input":"OAF","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1653272472460,"type":"PD","damage":"","range":"","input":"","level":"3","end":"","active":"5","base":"5","XMLID":"PD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1653272472457,"type":"Limited Coverage","damage":"","range":"","input":"[181-360] Degrees","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1653272500287,"type":"ED","damage":"","range":"","input":"","level":"2","end":"","active":"3","base":"3","XMLID":"ED","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1653272500284,"type":"Limited Power","damage":"","range":"","input":"Power loses about a third of its effectiveness","level":"0"}],"adders":[]},
+	{"name":"Heavy","uid":1653272528980,"type":"Knockback Resistance","damage":"-4m","range":"","input":"","level":"4","end":"0","active":"4","base":"4","XMLID":"KBRESISTANCE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
