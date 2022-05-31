@@ -1,0 +1,224 @@
+{
+"appversion":"20210301",
+"exportid":"20220530223731",
+"name":"Portal",
+"playername":"",
+"version":3.2,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":10,"roll":"11-","shortname":"str","name":"Strength","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"HTH Damage 2d6  END [1]"},
+"dex":{"value":18,"roll":"13-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"con":{"value":10,"roll":"11-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"int":{"value":18,"roll":"13-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"PER Roll 13-"},
+"ego":{"value":10,"roll":"11-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":10,"roll":"11-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"PRE Attack: 2d6"},
+"spd":{"value":4,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":"Phases: 3, 6, 9, 12"},
+"ocv":{"value":6,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":6,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":3,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":32,"roll":"15-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":32,"roll":"15-","mod":0},"secondary":{"value":32,"roll":"15-","mod":0},"notes":"32 PD (30 rPD)"},
+"pdr":{"value":30,"roll":"15-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":"32 PD (30 rPD)"},
+"ed":{"value":32,"roll":"15-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":32,"roll":"15-","mod":0},"secondary":{"value":32,"roll":"15-","mod":0},"notes":"32 ED (30 rED)"},
+"edr":{"value":30,"roll":"15-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":"32 ED (30 rED)"},
+"per":{"value":18,"roll":"13-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"13-","mod":0},"secondary":{"value":0,"roll":"13-","mod":0},"notes":""},
+"rec":{"value":15,"roll":"12-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"body":{"value":10,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"end":{"value":48,"roll":"19-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":48,"roll":"19-","mod":0},"secondary":{"value":48,"roll":"19-","mod":0},"notes":""},
+"stun":{"value":24,"roll":"14-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":24,"roll":"14-","mod":0},"secondary":{"value":24,"roll":"14-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"teleport":{"current":"primary","combat":"142m","noncombat":"36352m","primary":{"combat":{"description":"142m","value":142},"noncombat":{"description":"36352m","value":36352}},"secondary":{"combat":{"description":"142m","value":142},"noncombat":{"description":"36352m","value":36352}},"icon":"ui_teleport","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"13-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 13-"},
+	{"name":"AK (Africa) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1653945114842,"type":"AK","input":"Africa","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: Africa (3 Active Points) 13-"},
+	{"name":"AK (Asia) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1653945116953,"type":"AK","input":"Asia","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: Asia (3 Active Points) 13-"},
+	{"name":"AK (Europe) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1653945117675,"type":"AK","input":"Europe","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: Europe (3 Active Points) 13-"},
+	{"name":"AK (North America) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1653944864624,"type":"AK","input":"North America","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: North America (3 Active Points) 13-"},
+	{"name":"AK (South America) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1653944885573,"type":"AK","input":"South America","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: South America (3 Active Points) 13-"},
+	{"name":"CK (Beijing) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1653944898441,"type":"CK","input":"Beijing","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"CK: Beijing (3 Active Points) 13-"},
+	{"name":"CK (Cairo) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1653963365574,"type":"CK","input":"Cairo","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"CK: Cairo (3 Active Points) 13-"},
+	{"name":"CK (London) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1653963367050,"type":"CK","input":"London","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"CK: London (3 Active Points) 13-"},
+	{"name":"CK (Madrid) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1653963365116,"type":"CK","input":"Madrid","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"CK: Madrid (3 Active Points) 13-"},
+	{"name":"CK (Milenium City) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1653963474783,"type":"CK","input":"Milenium City","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"CK: Milenium City (3 Active Points) 13-"},
+	{"name":"CK (Mumbai) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1653963459125,"type":"CK","input":"Mumbai","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"CK: Mumbai (3 Active Points) 13-"},
+	{"name":"CK (New York) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1653963367608,"type":"CK","input":"New York","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"CK: New York (3 Active Points) 13-"},
+	{"name":"CK (Sao Paulo) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1653963367403,"type":"CK","input":"Sao Paulo","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"CK: Sao Paulo (3 Active Points) 13-"},
+	{"name":"CK (Seattle) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1653963366415,"type":"CK","input":"Seattle","level":"0","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"CK: Seattle (3 Active Points) 13-"},
+	{"name":"Analyze (Combat) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1653945158692,"type":"Analyze","input":"Combat","level":"0","active":"3","base":"3","XMLID":"ANALYZE","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Analyze: Combat 13-"},
+	{"name":"Defense Maneuver ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1653945253241,"type":"Defense Maneuver","input":"I-IV","level":"0","active":"10","base":"10","XMLID":"DEFENSE_MANEUVER","modifiers":[],"adders":[],"option":"I-IV","optionAlias":"I-IV","optionID":"FOUR","text":"Defense Maneuver I-IV "},
+	{"name":"Power: Teleportation VPP ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"18-","uid":1653961698774,"type":"Power","input":"","level":"5","active":"13","base":"13","XMLID":"POWERSKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Power 18-"},
+	{"name":"Language (Arabic (Egyptian)) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1653962509902,"type":"Language","input":"Arabic (Egyptian)idiomatic","level":"0","active":"4","base":"4","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"idiomatic","optionAlias":"idiomatic","optionID":"IDIOMATIC","text":"Language: Arabic (Egyptian) (idiomatic) (4 Active Points)"},
+	{"name":"Language (English) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1653962564206,"type":"Language","input":"Englishcompletely fluent","level":"0","active":"3","base":"3","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"completely fluent","optionAlias":"completely fluent","optionID":"ACCENT","text":"Language: English (completely fluent) (3 Active Points)"},
+	{"name":"Language (Hindi) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1653962723518,"type":"Language","input":"Hindifluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"fluent conversation","optionAlias":"fluent conversation","optionID":"FLUENT","text":"Language: Hindi (fluent conversation) (2 Active Points)"},
+	{"name":"Language (Mandarin) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1653962602990,"type":"Language","input":"Mandarinfluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"fluent conversation","optionAlias":"fluent conversation","optionID":"FLUENT","text":"Language: Mandarin (fluent conversation) (2 Active Points)"},
+	{"name":"Language (Russian) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1653962776159,"type":"Language","input":"Russianfluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"fluent conversation","optionAlias":"fluent conversation","optionID":"FLUENT","text":"Language: Russian (fluent conversation) (2 Active Points)"},
+	{"name":"Language (Spanish) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1653962676924,"type":"Language","input":"Spanishfluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"fluent conversation","optionAlias":"fluent conversation","optionID":"FLUENT","text":"Language: Spanish (fluent conversation) (2 Active Points)"}],
+"talents":[
+	{"name":"Combat Luck ","roll":"","uid":1653944264119,"type":"Combat Luck","input":"","level":"10","active":"60","base":"60","XMLID":"COMBAT_LUCK","modifiers":[{"value":"-¼","name":"","uid":1653963332724,"type":"Unified Power","input":"Teleportation Powers","level":"0"}],"adders":[]},
+	{"name":"Eidetic Memory ","roll":"","uid":1653961229788,"type":"Eidetic Memory","input":"","level":"0","active":"5","base":"5","XMLID":"EIDETIC_MEMORY","modifiers":[],"adders":[]},
+	{"name":"Lightsleep ","roll":"","uid":1653944331343,"type":"Lightsleep","input":"","level":"0","active":"3","base":"3","XMLID":"LIGHTSLEEP","modifiers":[],"adders":[]},
+	{"name":"Lightning Calculator ","roll":"","uid":1653944292348,"type":"Lightning Calculator","input":"","level":"0","active":"3","base":"3","XMLID":"LIGHTNING_CALCULATOR","modifiers":[],"adders":[]},
+	{"name":"Absolute Range Sense ","roll":"","uid":1653944301257,"type":"Absolute Range Sense","input":"","level":"0","active":"3","base":"3","XMLID":"ABSOLUTE_RANGE_SENSE","modifiers":[],"adders":[]},
+	{"name":"Absolute Time Sense ","roll":"","uid":1653944302568,"type":"Absolute Time Sense","input":"","level":"0","active":"3","base":"3","XMLID":"ABSOLUTE_TIME_SENSE","modifiers":[],"adders":[]},
+	{"name":"Bump Of Direction ","roll":"","uid":1653944305318,"type":"Bump Of Direction","input":"","level":"0","active":"3","base":"3","XMLID":"BUMP_OF_DIRECTION","modifiers":[],"adders":[]}],
+"perks":[],
+"disads":[],
+"combatlevels":[],
+"powers":[
+	{"name":"Teleportation Powers","uid":1653943822726,"type":"Variable Power Pool","damage":"","range":"","input":"Magic Pool","level":"70","end":"","active":"145","base":"145","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1653963260465,"type":"Control Cost","damage":"","range":"","input":"","level":"150"}]},
+	{"name":"Forced Group Teleport","uid":1653941717390,"type":"Teleportation","damage":"16m","range":"","input":"","level":"16","end":"15","active":"147","base":"31","XMLID":"TELEPORTATION","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1¼","name":"","uid":1653963971351,"type":"Usable On Others","damage":"16m","range":"","input":"Usable As Attack","level":"0"},{"value":"+¾","name":"","uid":1653963971381,"type":"Area Of Effect","damage":"16m","range":"","input":"Radius","level":"8"},{"value":"+1¾","name":"","uid":1653963971385,"type":"MegaScale","damage":"16m","range":"","input":"","level":"3"},{"value":"-½","name":"","uid":1653963971392,"type":"Concentration","damage":"16m","range":"","input":"0 DCV","level":"0"},{"value":"-¾","name":"","uid":1653963971399,"type":"Gestures","damage":"16m","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1653963971294,"type":"x8 Increased Mass","damage":"16m","range":"","input":"","level":"3"}]},
+	{"name":"Halfway around the World","uid":1653943853234,"type":"Teleportation","damage":"70m","range":"","input":"","level":"70","end":"15","active":"150","base":"120","XMLID":"TELEPORTATION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1653964118428,"type":"Safe Blind Teleport","damage":"70m","range":"","input":"","level":"0"},{"value":"-¾","name":"","uid":1653964118434,"type":"Gestures","damage":"70m","range":"","input":"","level":"0"},{"value":"-½","name":"","uid":1653964118441,"type":"Concentration","damage":"70m","range":"","input":"0 DCV","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1653964118426,"type":"x128 Noncombat","damage":"70m","range":"","input":"","level":"7"},{"name":"No Name Supplied","uid":1653964118427,"type":"x8 Increased Mass","damage":"70m","range":"","input":"","level":"3"}]},
+	{"name":"Invisible Teleport","uid":1653944173328,"type":"Teleportation","damage":"44m","range":"","input":"","level":"44","end":"10","active":"99","base":"44","XMLID":"TELEPORTATION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1653964044783,"type":"Safe Blind Teleport","damage":"44m","range":"","input":"","level":"0"},{"value":"+1","name":"","uid":1653964044818,"type":"Invisible Power Effects","damage":"44m","range":"","input":"Obvious Power, Fully Invisible","level":"0"},{"value":"-½","name":"","uid":1653964044826,"type":"Concentration","damage":"44m","range":"","input":"0 DCV","level":"0"}],"adders":[]},
+	{"name":"Big Gate","uid":1653963423821,"type":"Teleportation","damage":"12m","range":"","input":"","level":"12","end":"15","active":"148","base":"37","XMLID":"TELEPORTATION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1653964000528,"type":"Constant","damage":"12m","range":"","input":"","level":"0"},{"value":"+¼","name":"","uid":1653964000583,"type":"Usable On Others","damage":"12m","range":"","input":"Usable By Other","level":"0"},{"value":"+¾","name":"","uid":1653964000611,"type":"Area Of Effect","damage":"12m","range":"","input":"Radius","level":"16"},{"value":"-½","name":"","uid":1653964000614,"type":"Gate","damage":"12m","range":"","input":"","level":"0"},{"value":"+1½","name":"","uid":1653964000616,"type":"MegaScale","damage":"12m","range":"","input":"","level":"2"},{"value":"-½","name":"","uid":1653964000623,"type":"Concentration","damage":"12m","range":"","input":"0 DCV","level":"0"},{"value":"-¾","name":"","uid":1653964009752,"type":"Gestures","damage":"12m","range":"","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1653964000527,"type":"x32 Increased Mass","damage":"12m","range":"","input":"","level":"5"}]},
+	{"name":"No Name Supplied","uid":1653942192590,"type":"Teleportation: Fixed Location","damage":"(10 Locations)","range":"","input":"","level":"10","end":"0","active":"10","base":"10","XMLID":"FIXEDLOCATION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1653942206260,"type":"Teleportation: Floating Fixed Location","damage":"(4 Locations)","range":"","input":"","level":"4","end":"0","active":"20","base":"20","XMLID":"FLOATINGLOCATION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1653961832683,"type":"Power Defense","damage":"16 points","range":"","input":"","level":"16","end":"0","active":"16","base":"16","XMLID":"POWERDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1653962027738,"type":"Knockback Resistance","damage":"-12m","range":"","input":"","level":"12","end":"0","active":"12","base":"12","XMLID":"KBRESISTANCE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false},
+	{"name":"Martial Block","gameEdition":6 ,"ocvMod":2,"dcvMod":2,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Block, Abort","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Martial Block:½ Phase, +2 OCV, +2 DCV, Block, Abort","rngMod":0, "abort":true
+	},{"name":"Martial Dodge","gameEdition":6 ,"ocvMod":0,"dcvMod":5,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Dodge, Affects All Attacks, Abort","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Martial Dodge:½ Phase, -- OCV, +5 DCV, Dodge, Affects All Attacks, Abort","rngMod":0, "abort":true
+	},{"name":"Martial Escape","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"25 STR vs. Grabs","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Martial Escape:½ Phase, +0 OCV, +0 DCV, 25 STR vs. Grabs","rngMod":0, "abort":false
+	}],
+"rolls":[
+	{"name":"Forced Group Teleport","uid":1653941717390,"gameEdition":6,"tool":"16m, Teleportation , 15 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
