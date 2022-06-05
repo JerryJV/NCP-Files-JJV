@@ -1,6 +1,6 @@
 {
 "appversion":"20210301",
-"exportid":"20220605112051",
+"exportid":"20220605112735",
 "name":"Level 37 - Revered",
 "playername":"",
 "version":3.2,
@@ -19,10 +19,10 @@
 "dcv":{"value":4,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
 "omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
 "dmcv":{"value":3,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
-"pd":{"value":4,"roll":"10-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"4/10 PD (0/6 rPD)"},
-"pdr":{"value":0,"roll":"10-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"11-","mod":0},"notes":"4/10 PD (0/6 rPD)"},
-"ed":{"value":4,"roll":"10-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"4/10 ED (0/6 rED)"},
-"edr":{"value":0,"roll":"10-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"11-","mod":0},"notes":"4/10 ED (0/6 rED)"},
+"pd":{"value":10,"roll":"11-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"10 PD (6 rPD)"},
+"pdr":{"value":6,"roll":"11-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":6,"roll":"11-","mod":0},"secondary":{"value":6,"roll":"11-","mod":0},"notes":"10 PD (6 rPD)"},
+"ed":{"value":10,"roll":"11-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"10 ED (6 rED)"},
+"edr":{"value":6,"roll":"11-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":6,"roll":"11-","mod":0},"secondary":{"value":6,"roll":"11-","mod":0},"notes":"10 ED (6 rED)"},
 "per":{"value":10,"roll":"11-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"11-","mod":0},"secondary":{"value":0,"roll":"11-","mod":0},"notes":""},
 "rec":{"value":5,"roll":"10-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
 "body":{"value":12,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":""},
@@ -58,12 +58,12 @@
 	{"name":"Dark Laser Blaster","uid":1654439554747,"type":"Blast","damage":"7d6","range":"350m","input":"ED","level":"7","end":"[8]","active":"52","base":"35","XMLID":"ENERGYBLAST","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1654439619855,"type":"Armor Piercing","damage":"7d6","range":"350m","input":"","level":"1"},{"value":"+¼","name":"","uid":1654439631740,"type":"Autofire","damage":"7d6","range":"350m","input":"3 Shots","level":"0"},{"value":"-¼","name":"","uid":1654439688630,"type":"No Knockback","damage":"7d6","range":"350m","input":"","level":"0"},{"value":"-1","name":"","uid":1654439701489,"type":"Focus","damage":"7d6","range":"350m","input":"OAF","level":"0"},{"value":"-½","name":"","uid":1654439713061,"type":"Charges","damage":"7d6","range":"350m","input":"8","level":"0"}],"adders":[]},
 	{"name":"Darkfield Generator","uid":1654440878860,"type":"Darkness","damage":"4m radius","range":"250m","input":"Sight Group","level":"4","end":"[2 cc]","active":"31","base":"25","XMLID":"DARKNESS","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1654441550603,"type":"Personal Immunity","damage":"4m radius","range":"250m","input":"","level":"0"},{"value":"-¾","name":"","uid":1654441550685,"type":"Charges","damage":"4m radius","range":"250m","input":"2","level":"0"},{"value":"-¼","name":"","uid":1654441550715,"type":"Focus","damage":"4m radius","range":"250m","input":"IIF","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1654441550602,"type":"Hearing Group","damage":"4m radius","range":"250m","input":"","level":"0"}]},
 	{"name":"Level 37 Ritualistic Knife","uid":1654441432304,"type":"Killing Attack - Hand-To-Hand","damage":"1d6 (1½d6 w/STR)","range":"","input":"PD","level":"1","end":"2","active":"19","base":"15","XMLID":"HKA","strMod":true,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+¼","name":"","uid":1654441640012,"type":"+1 Increased STUN Multiplier","damage":"1d6 (1½d6 w/STR)","range":"","input":"","level":"1"},{"value":"-1","name":"","uid":1654441644866,"type":"Focus","damage":"1d6 (1½d6 w/STR)","range":"","input":"OAF","level":"0"},{"value":"-¼","name":"","uid":1654441652106,"type":"Real Weapon","damage":"1d6 (1½d6 w/STR)","range":"","input":"","level":"0"}],"adders":[]},
-	{"name":"Custom Field Armor","uid":1654439987589,"type":"Resistant Protection","damage":"","range":"","input":"","level":"12","end":"0","active":"18","base":"18","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1654440063876,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"},{"value":"-¼","name":"","uid":1654440063890,"type":"Limited Power","damage":"","range":"","input":"Power loses about a fourth of its effectiveness","level":"0"},{"value":"-½","name":"","uid":1654440063904,"type":"Limited Power","damage":"","range":"","input":"Power loses about a third of its effectiveness","level":"0"}],"adders":[]},
+	{"name":"Custom Field Armor","uid":1654439987589,"type":"Resistant Protection","damage":"","range":"","input":"","level":"12","end":"0","active":"18","base":"18","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1654442987123,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"},{"value":"-¼","name":"","uid":1654442987137,"type":"Limited Power","damage":"","range":"","input":"Power loses about a fourth of its effectiveness","level":"0"},{"value":"-½","name":"","uid":1654442987151,"type":"Limited Power","damage":"","range":"","input":"Power loses about a third of its effectiveness","level":"0"}],"adders":[]},
 	{"name":"No Name Supplied","uid":1654440344847,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"0","base":"0","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1654440610638,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
 	{"name":"Communicator","uid":1654440554846,"type":"Radio Perception/Transmission","damage":"","range":"","input":"","level":"0","end":"0","active":"10","base":"10","XMLID":"RADIOPERCEIVETRANSMIT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"","uid":1654440667204,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
 	{"name":"No Name Supplied","uid":1654440289020,"type":"Flash Defense","damage":"(4 points)","range":"","input":"Sight Group","level":"4","end":"0","active":"4","base":"4","XMLID":"FLASHDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-¼","name":"","uid":1654440618275,"type":"Real Armor","damage":"(4 points)","range":"","input":"","level":"0"},{"value":"-½","name":"","uid":1654440618282,"type":"Mass","damage":"(4 points)","range":"","input":"Half Mass","level":"0"}],"adders":[]},
 	{"name":"No Name Supplied","uid":1654440409882,"type":"Flash Defense","damage":"(3 points)","range":"","input":"Hearing Group","level":"3","end":"0","active":"3","base":"3","XMLID":"FLASHDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
-	{"name":"Darkfield Englobement","uid":1654442229336,"type":"Barrier","damage":"","range":"var.","input":"","level":"10","end":"[1]","active":"54","base":"54","XMLID":"FORCEWALL","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-2","name":"","uid":1654442518501,"type":"Charges","damage":"","range":"var.","input":"1","level":"0"},{"value":"-¼","name":"","uid":1654442518503,"type":"Range Based On Strength","damage":"","range":"var.","input":"","level":"0"},{"value":"-1","name":"","uid":1654442518530,"type":"Focus","damage":"","range":"var.","input":"OAF","level":"0"},{"value":"-¼","name":"","uid":1654442528965,"type":"Restricted Shape","damage":"","range":"var.","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1654442518407,"type":"Opaque","damage":"","range":"var.","input":"Sight Group","level":"0"},{"name":"No Name Supplied","uid":1654442518437,"type":"Opaque","damage":"","range":"var.","input":"Hearing Group","level":"0"}]}],
+	{"name":"Darkfield Englobement","uid":1654442229336,"type":"Barrier","damage":"","range":"var.","input":"","level":"10","end":"[1]","active":"54","base":"54","XMLID":"FORCEWALL","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-2","name":"","uid":1654442887647,"type":"Charges","damage":"","range":"var.","input":"1","level":"0"},{"value":"-¼","name":"","uid":1654442887649,"type":"Range Based On Strength","damage":"","range":"var.","input":"","level":"0"},{"value":"-1","name":"","uid":1654442887676,"type":"Focus","damage":"","range":"var.","input":"OAF","level":"0"},{"value":"-¼","name":"","uid":1654442887678,"type":"Restricted Shape","damage":"","range":"var.","input":"","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1654442887553,"type":"Opaque","damage":"","range":"var.","input":"Sight Group","level":"0"},{"name":"No Name Supplied","uid":1654442887583,"type":"Opaque","damage":"","range":"var.","input":"Hearing Group","level":"0"}]}],
 "equipment":[],
 "martialArts":[	
 	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false},
@@ -78,134 +78,6 @@
 	{"name":"Level 37 Ritualistic Knife","uid":1654441432304,"gameEdition":6,"tool":"1d6 (1½d6 w/STR), Killing Attack - Hand-To-Hand (vs. PD) , 2 end.","diceMod":0,"dice":1,"halfDice":true,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":1}],
 "lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
