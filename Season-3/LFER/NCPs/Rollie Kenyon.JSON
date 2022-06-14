@@ -1,0 +1,193 @@
+{
+"appversion":"20220312",
+"exportid":"20220613232137",
+"name":"Rollie Kenyon",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":10,"roll":"11-","shortname":"str","name":"Strength","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"HTH Damage 2d6  END [2]"},
+"dex":{"value":11,"roll":"11-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":11,"roll":"11-","mod":0},"secondary":{"value":11,"roll":"11-","mod":0},"notes":""},
+"con":{"value":13,"roll":"12-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":""},
+"int":{"value":20,"roll":"13-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"PER Roll 13-"},
+"ego":{"value":18,"roll":"13-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":20,"roll":"13-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":"PRE Attack: 4d6"},
+"spd":{"value":2,"roll":"9-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":2,"roll":"9-","mod":0},"secondary":{"value":2,"roll":"9-","mod":0},"notes":"Phases: 6, 12"},
+"ocv":{"value":4,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":4,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":6,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":6,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":4,"roll":"10-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":"4 PD (0 rPD)"},
+"pdr":{"value":0,"roll":"10-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":0,"roll":"10-","mod":0},"notes":"4 PD (0 rPD)"},
+"ed":{"value":4,"roll":"10-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":"4 ED (0 rED)"},
+"edr":{"value":4,"roll":"10-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":"4 ED (0 rED)"},
+"per":{"value":20,"roll":"13-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"13-","mod":0},"secondary":{"value":0,"roll":"13-","mod":0},"notes":""},
+"rec":{"value":5,"roll":"10-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"body":{"value":11,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":11,"roll":"11-","mod":0},"secondary":{"value":11,"roll":"11-","mod":0},"notes":""},
+"end":{"value":26,"roll":"14-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":26,"roll":"14-","mod":0},"secondary":{"value":26,"roll":"14-","mod":0},"notes":""},
+"stun":{"value":23,"roll":"14-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":23,"roll":"14-","mod":0},"secondary":{"value":23,"roll":"14-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"13-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 13-"},
+	{"name":"Deduction ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1619157653264,"type":"Deduction","input":"","level":"0","active":"3","base":"3","XMLID":"DEDUCTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Deduction 13-"},
+	{"name":"Inventor ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1619157659107,"type":"Inventor","input":"","level":"0","active":"3","base":"3","XMLID":"INVENTOR","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Inventor 13-"},
+	{"name":"KS: The Criminal Underworld ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1619157667043,"type":"KS","input":"","level":"1","active":"4","base":"4","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS 14-"},
+	{"name":"KS: Metahuman Power Theory ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1619157713380,"type":"KS","input":"","level":"2","active":"5","base":"5","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS 15-"},
+	{"name":"KS: Narcotics ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1619157757846,"type":"KS","input":"","level":"2","active":"5","base":"5","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS 15-"},
+	{"name":"Science Skill: Biochemistry ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"16-","uid":1619157789583,"type":"Science Skill","input":"","level":"3","active":"6","base":"6","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill 16-"},
+	{"name":"Science Skill: Chemistry ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"15-","uid":1619157825479,"type":"Science Skill","input":"","level":"2","active":"5","base":"5","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill 15-"},
+	{"name":"Science Skill: Genetics ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"16-","uid":1619157843615,"type":"Science Skill","input":"","level":"3","active":"6","base":"6","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill 16-"},
+	{"name":"Science Skill: Pharmacology ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1619157863934,"type":"Science Skill","input":"","level":"1","active":"4","base":"4","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill 14-"}],
+"talents":[],
+"perks":[],
+"disads":[
+	{"name":"Hunted","roll":"","uid":1619157890972,"type":"Hunted","input":"Local Police","level":"0","active":"20","base":"20","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1619157940081,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1619157940087,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1619157940093,"type":"Motivation","input":"Harshly Punish","level":"0"},{"name":"No Name Supplied","uid":1619157955841,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1619157922578,"type":"Psychological Complication","input":"Believes Illegal Drugs are the answer to All of Life's Problems","level":"0","active":"20","base":"20","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1619157971846,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1619157971852,"type":"Intensity Is","input":"Total","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1619158028373,"type":"Psychological Complication","input":"Hates Authority","level":"0","active":"20","base":"20","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1619158077748,"type":"Situation Is","input":"Very Common","level":"0"},{"name":"No Name Supplied","uid":1619158077754,"type":"Intensity Is","input":"Strong","level":"0"}]}],
+"combatlevels":[],
+"powers":[
+	{"name":"No Name Supplied","uid":1619158979838,"type":"Discriminatory","damage":"","range":"","input":"Smell/Taste Group","level":"0","end":"0","active":"10","base":"10","XMLID":"DISCRIMINATORY","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]},
+	{"name":"No Name Supplied","uid":1619158996216,"type":"Analyze","damage":"","range":"","input":"Smell/Taste Group","level":"0","end":"0","active":"10","base":"10","XMLID":"ANALYZESENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

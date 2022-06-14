@@ -1,0 +1,211 @@
+{
+"appversion":"20220312",
+"exportid":"20220613232156",
+"name":"Vera Ellard",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":10,"roll":"11-","shortname":"str","name":"Strength","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"HTH Damage 2d6  END [2]"},
+"dex":{"value":15,"roll":"12-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"con":{"value":13,"roll":"12-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":""},
+"int":{"value":18,"roll":"13-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":"PER Roll 13-"},
+"ego":{"value":12,"roll":"11-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":18,"roll":"13-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":38,"roll":"17-","mod":0},"notes":"PRE Attack: 3½d6 / 7½d6"},
+"spd":{"value":3,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":"Phases: 4, 8, 12"},
+"ocv":{"value":5,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":5,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":4,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":4,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":5,"roll":"10-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":"5/12 PD (0/7 rPD)"},
+"pdr":{"value":0,"roll":"10-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"11-","mod":0},"notes":"5/12 PD (0/7 rPD)"},
+"ed":{"value":5,"roll":"10-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":"5/13 ED (0/8 rED)"},
+"edr":{"value":5,"roll":"10-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":"5/13 ED (0/8 rED)"},
+"per":{"value":18,"roll":"13-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"13-","mod":0},"secondary":{"value":0,"roll":"13-","mod":0},"notes":""},
+"rec":{"value":5,"roll":"10-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"body":{"value":11,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":11,"roll":"11-","mod":0},"secondary":{"value":11,"roll":"11-","mod":0},"notes":""},
+"end":{"value":26,"roll":"14-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":26,"roll":"14-","mod":0},"secondary":{"value":26,"roll":"14-","mod":0},"notes":""},
+"stun":{"value":23,"roll":"14-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":23,"roll":"14-","mod":0},"secondary":{"value":23,"roll":"14-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"13-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 13-"},
+	{"name":"Acrobatics ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1619146026943,"type":"Acrobatics","input":"","level":"0","active":"3","base":"3","XMLID":"ACROBATICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Acrobatics 12-"},
+	{"name":"Breakfall ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1619146030686,"type":"Breakfall","input":"","level":"0","active":"3","base":"3","XMLID":"BREAKFALL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Breakfall 12-"},
+	{"name":"KS: Narcotics ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1619146113560,"type":"KS","input":"","level":"1","active":"3","base":"3","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS 12-"},
+	{"name":"Science Skill: Biochemistry ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1619146163140,"type":"Science Skill","input":"","level":"1","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill 12-"},
+	{"name":"Science Skill: Pharmacology ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1619146190473,"type":"Science Skill","input":"","level":"1","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill 12-"},
+	{"name":"Shadowing ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1619146220338,"type":"Shadowing","input":"","level":"0","active":"3","base":"3","XMLID":"SHADOWING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Shadowing 13-"},
+	{"name":"Sleight Of Hand ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1619146224022,"type":"Sleight Of Hand","input":"","level":"0","active":"3","base":"3","XMLID":"SLEIGHT_OF_HAND","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Sleight Of Hand 12-"},
+	{"name":"Streetwise ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"13- (17-)","uid":1619146232776,"type":"Streetwise","input":"","level":"0","active":"3","base":"3","XMLID":"STREETWISE","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Streetwise 13- (17-)"}],
+"talents":[],
+"perks":[],
+"disads":[
+	{"name":"Psychological Complication","roll":"","uid":1619143824778,"type":"Psychological Complication","input":"Wants to be Feared & Respected","level":"0","active":"10","base":"10","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1619143840890,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1619143840896,"type":"Intensity Is","input":"Moderate","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1619144071864,"type":"Psychological Complication","input":"Casual Killer","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1619144088080,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1619144088086,"type":"Intensity Is","input":"Strong","level":"0"}]},
+	{"name":"Dependence","roll":"","uid":1619147123860,"type":"Dependence","input":"Superpowers drug","level":"0","active":"10","base":"10","XMLID":"DEPENDENCE","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1619147123800,"type":"Effect","input":"Weakness: -3 To Characteristic Rolls and related rolls per time increment","level":"0"},{"name":"No Name Supplied","uid":1619147123808,"type":"Dependent Substance Is","input":"Uncommon","level":"0"},{"name":"No Name Supplied","uid":1619147123824,"type":"Time Before Suffering Effects","input":"6 Hours","level":"0"}]},
+	{"name":"Physical Complication","roll":"","uid":1619147123889,"type":"Physical Complication","input":"Night Person (Suffers -1 to all Skill & Characteristic rolls in Daylight)","level":"0","active":"15","base":"15","XMLID":"PHYSICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1619147123867,"type":"Limitation Occurs","input":"Frequently","level":"0"},{"name":"No Name Supplied","uid":1619147123874,"type":"Limitation Impairs","input":"Slightly Impairing","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1619147123914,"type":"Psychological Complication","input":"addicted to Superpowers Drug","level":"0","active":"10","base":"10","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1619147123895,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1619147123901,"type":"Intensity Is","input":"Moderate","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1619147123939,"type":"Psychological Complication","input":"Shuns Bright Light","level":"0","active":"10","base":"10","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1619147123920,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1619147123926,"type":"Intensity Is","input":"Moderate","level":"0"}]},
+	{"name":"Vulnerability","roll":"","uid":1619147123972,"type":"Vulnerability","input":"Light based","level":"0","active":"10","base":"10","XMLID":"VULNERABILITY","modifiers":[{"value":"x1","name":"","uid":1619147123954,"type":"Vulnerability Multiplier","input":"1½x STUN","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1619147123945,"type":"The Attack Is","input":"Common","level":"0"}]}],
+"combatlevels":[],
+"powers":[
+	{"name":"No Name Supplied","uid":1619147130050,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"0","base":"0","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Fearful Demeanor","uid":1619147130079,"type":"PRE","damage":"","range":"","input":"","level":"20","end":"","active":"20","base":"20","XMLID":"PRE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-1","name":"","uid":1619147130063,"type":"Limited Power","damage":"","range":"","input":"Power loses about half of its effectiveness","level":"0"},{"value":"-½","name":"","uid":1619147130077,"type":"Limited Power","damage":"","range":"","input":"Power loses about a third of its effectiveness","level":"0"}],"adders":[]},
+	{"name":"Touch of Fear","uid":1619147130126,"type":"Drain","damage":"4d6","range":"400m","input":"PRE","level":"4","end":"8","active":"80","base":"40","XMLID":"DRAIN","strMod":false,"class":{"attack":true,"mental":false,"adjustment":true,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+1","name":"","uid":1619147130095,"type":"Delayed Return Rate","damage":"4d6","range":"400m","input":"5 Points per Minute","level":"0"},{"value":"-½","name":"","uid":1619147130117,"type":"Conditional Power","damage":"4d6","range":"400m","input":"Power Only Works In Darkness","level":"0"}],"adders":[]},
+	{"name":"Blend into Shadows","uid":1619147130155,"type":"Invisibility","damage":"","range":"","input":"Sight Group","level":"0","end":"2","active":"20","base":"20","XMLID":"INVISIBILITY","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"-½","name":"","uid":1619147130147,"type":"Conditional Power","damage":"","range":"","input":"Power Only Works In Darkness","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1619147130197,"type":"Resistant Protection","damage":"","range":"","input":"","level":"15","end":"2","active":"24","base":"24","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1619147130176,"type":"Conditional Power","damage":"","range":"","input":"Power Only Works In Darkness","level":"0"},{"value":"-½","name":"","uid":1619147130183,"type":"Costs Endurance","damage":"","range":"","input":"Costs END Every Phase","level":"0"}],"adders":[]},
+	{"name":"Macabre Eyes","uid":1619147130198,"type":"Nightvision","damage":"","range":"","input":"","level":"0","end":"0","active":"5","base":"5","XMLID":"NIGHTVISION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false},
+	{"name":"Armado da Costa (Jumping Spinning Kick)","gameEdition":6 ,"ocvMod":-2,"dcvMod":1,"dice":3,"halfDice":false,"killingAttack":false,"effect":"8d6 Strike","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"5","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Armado da Costa (Jumping Spinning Kick):½ Phase, -2 OCV, +1 DCV, 8d6 Strike","rngMod":0, "abort":false
+	},{"name":"Bencao (Front Thrust)","gameEdition":6 ,"ocvMod":0,"dcvMod":2,"dice":3,"halfDice":false,"killingAttack":false,"effect":"6d6 Strike","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Bencao (Front Thrust):½ Phase, +0 OCV, +2 DCV, 6d6 Strike","rngMod":0, "abort":false
+	},{"name":"Defensive Block","gameEdition":6 ,"ocvMod":1,"dcvMod":3,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Block, Abort","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"5","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Defensive Block:½ Phase, +1 OCV, +3 DCV, Block, Abort","rngMod":0, "abort":true
+	},{"name":"Head Butt","gameEdition":6 ,"ocvMod":1,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"6d6 Strike","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"3","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Head Butt:½ Phase, +1 OCV, +0 DCV, 6d6 Strike","rngMod":0, "abort":false
+	},{"name":"Martial Dodge","gameEdition":6 ,"ocvMod":0,"dcvMod":5,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Dodge, Affects All Attacks, Abort","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Martial Dodge:½ Phase, -- OCV, +5 DCV, Dodge, Affects All Attacks, Abort","rngMod":0, "abort":true
+	},{"name":"Dedeira (Eye Gouge)","gameEdition":6 ,"ocvMod":-1,"dcvMod":-1,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Flash 6d6","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Dedeira (Eye Gouge):½ Phase, -1 OCV, -1 DCV, Flash 6d6","rngMod":0, "abort":false
+	},{"name":"Queixada (Crescent Kick)","gameEdition":6 ,"ocvMod":2,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"6d6 Strike","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Queixada (Crescent Kick):½ Phase, +2 OCV, +0 DCV, 6d6 Strike","rngMod":0, "abort":false
+	},{"name":"Rasteira (Legsweep)","gameEdition":6 ,"ocvMod":2,"dcvMod":-1,"dice":3,"halfDice":false,"killingAttack":false,"effect":"5d6 Strike, Target Falls","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"3","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Rasteira (Legsweep):½ Phase, +2 OCV, -1 DCV, 5d6 Strike, Target Falls","rngMod":0, "abort":false
+	},{"name":"Voo-do-morcego (Flying Kick)","gameEdition":6 ,"ocvMod":1,"dcvMod":-2,"dice":3,"halfDice":false,"killingAttack":false,"effect":" 8d6, Strike","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"5","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Voo-do-morcego (Flying Kick):½ Phase, +1 OCV, -2 DCV,  8d6, Strike","rngMod":0, "abort":false
+	}],
+"rolls":[
+	{"name":"Touch of Fear","uid":1619147130126,"gameEdition":6,"tool":"4d6, Drain (vs. PRE) 400m, 8 end.","diceMod":0,"dice":4,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
