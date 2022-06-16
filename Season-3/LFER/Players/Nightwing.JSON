@@ -1,0 +1,219 @@
+{
+"appversion":"20210804",
+"exportid":"20220502184220",
+"name":"Nightwing",
+"playername":"Kruxader",
+"version":3.0,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":25,"roll":"14-","shortname":"str","name":"Strength","current":"primary","primary":{"value":25,"roll":"14-","mod":0},"secondary":{"value":35,"roll":"16-","mod":0},"notes":"HTH Damage 5d6/7d6  END [2/3]"},
+"dex":{"value":18,"roll":"13-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"con":{"value":20,"roll":"13-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":20,"roll":"13-","mod":0},"secondary":{"value":20,"roll":"13-","mod":0},"notes":""},
+"int":{"value":10,"roll":"11-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"PER Roll 11-"},
+"ego":{"value":10,"roll":"11-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":10,"roll":"11-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"PRE Attack: 2d6"},
+"spd":{"value":7,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":7,"roll":"10-","mod":0},"secondary":{"value":7,"roll":"10-","mod":0},"notes":"Phases: 2, 4, 6, 7, 9, 11, 12"},
+"ocv":{"value":6,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":6,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":1,"roll":"9-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":1,"roll":"9-","mod":0},"secondary":{"value":1,"roll":"9-","mod":0},"notes":""},
+"dmcv":{"value":3,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":16,"roll":"12-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":16,"roll":"12-","mod":0},"secondary":{"value":19,"roll":"13-","mod":0},"notes":"16/19 PD (12/15 rPD)"},
+"pdr":{"value":12,"roll":"12-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":12,"roll":"<!--PD_RESISTANT_PRIMARY_ROLL-->-","mod":0},"secondary":{"value":15,"roll":"<!--PD_RESISTANT_SECONDARY_ROLL-->-","mod":0},"notes":"16/19 PD (12/15 rPD)"},
+"ed":{"value":16,"roll":"12-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":16,"roll":"12-","mod":0},"secondary":{"value":19,"roll":"13-","mod":0},"notes":"16/19 ED (12/15 rED)"},
+"edr":{"value":12,"roll":"12-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":12,"roll":"<!--ED_RESISTANT_PRIMARY_ROLL-->-","mod":0},"secondary":{"value":15,"roll":"<!--ED_RESISTANT_SECONDARY_ROLL-->-","mod":0},"notes":"16/19 ED (12/15 rED)"},
+"per":{"value":10,"roll":"11-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"11-","mod":0},"secondary":{"value":0,"roll":"11-","mod":0},"notes":""},
+"rec":{"value":10,"roll":"11-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"body":{"value":10,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"end":{"value":35,"roll":"16-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":35,"roll":"16-","mod":0},"secondary":{"value":35,"roll":"16-","mod":0},"notes":""},
+"stun":{"value":40,"roll":"17-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":40,"roll":"17-","mod":0},"secondary":{"value":40,"roll":"17-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"fly":{"current":"primary","combat":"30m","noncombat":"60m","primary":{"combat":{"description":"30m","value":30},"noncombat":{"description":"60m","value":60}},"secondary":{"combat":{"description":"30m","value":30},"noncombat":{"description":"60m","value":60}},"icon":"ui_fly","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"11-","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 11-"},
+	{"name":"Acrobatics ","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1649624731092,"type":"Acrobatics","input":"","level":"0","active":"3","base":"3","XMLID":"ACROBATICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Acrobatics 13-"},
+	{"name":"Breakfall ","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1649624753545,"type":"Breakfall","input":"","level":"0","active":"3","base":"3","XMLID":"BREAKFALL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Breakfall 13-"},
+	{"name":"PS (College Student (Pre-Law)) ","everyman":true,"familiarity":true,"proficiency":false,"roll":"11-","uid":1649624895951,"type":"Professional Skill","input":"College Student (Pre-Law)","level":"0","active":"0","base":"0","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: College Student (Pre-Law) 11-"},
+	{"name":"Streetwise ","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1650138940667,"type":"Streetwise","input":"","level":"0","active":"3","base":"3","XMLID":"STREETWISE","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Streetwise 11-"},
+	{"name":"Stealth ","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1649624914936,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 13-"}],
+"talents":[
+	{"name":"Lightning Reflexes ","roll":"","uid":1649633690636,"type":"Lightning Reflexes","input":"All HTH Attacks","level":"6","active":"3","base":"3","XMLID":"LIGHTNING_REFLEXES_ALL","modifiers":[],"adders":[]},
+	{"name":"Combat Luck ","roll":"","uid":1649634431307,"type":"Combat Luck","input":"","level":"1","active":"6","base":"6","XMLID":"COMBAT_LUCK","modifiers":[],"adders":[]}],
+"perks":[],
+"disads":[
+	{"name":"Distinctive Features","roll":"","uid":1650205770076,"type":"Distinctive Features","input":"Not registered with the IERA as a superpowered individual","level":"0","active":"0","base":"0","XMLID":"DISTINCTIVEFEATURES","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1650205999091,"type":"Concealability","input":"Concealable","level":"0"},{"name":"No Name Supplied","uid":1650205999097,"type":"Reaction","input":"Always Noticed and Causes Major Reaction","level":"0"},{"name":"No Name Supplied","uid":1650205999103,"type":"Sensing","input":"Detectable By Commonly-Used Senses","level":"0"},{"name":"No Name Supplied","uid":1650205999104,"type":"Not Distinctive In Some Cultures","input":"","level":"0"},{"name":"No Name Supplied","uid":1650205999105,"type":"","input":"","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1649718836193,"type":"Hunted","input":"IERA","level":"0","active":"10","base":"10","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1650205873393,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1650205873399,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1650205873405,"type":"Motivation","input":"Watching","level":"0"},{"name":"No Name Supplied","uid":1650205873406,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1649636091951,"type":"Psychological Complication","input":"Code of the Hero","level":"0","active":"20","base":"20","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1649721465746,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1649721465752,"type":"Intensity Is","input":"Total","level":"0"}]},
+	{"name":"Social Complication","roll":"","uid":1649953696686,"type":"Social Complication","input":"Secret Identity","level":"0","active":"15","base":"15","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1649953759785,"type":"Circumstances Occur","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1649953759791,"type":"Effects of Restrictions","input":"Severe","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1650061003917,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"2","active":"6","base":"6","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]},
+
+
+	{"name":"Combat Skill Levels","roll":"","uid":1650061022765,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"2","active":"6","base":"6","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Biosteel Cape","uid":1649702990653,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"30","base":"30","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1649969557136,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Nether Shroud","uid":1649687644811,"type":"Invisibility","damage":"","range":"","input":"Sight Group","level":"0","end":"0","active":"30","base":"20","XMLID":"INVISIBILITY","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"+½","name":"","uid":1650137925069,"type":"Reduced Endurance","damage":"","range":"","input":"0 END","level":"0"}],"adders":[]},
+	{"name":"Razor Wing Defense","uid":1649985901258,"type":"Deflection","damage":"","range":"200m","input":"","level":"0","end":"0","active":"30","base":"20","XMLID":"MISSILEDEFLECTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1650115807906,"type":"Reduced Endurance","damage":"","range":"200m","input":"0 END","level":"0"}],"adders":[]},
+	{"name":"Razor Wing Swipe","uid":1649859933415,"type":"Killing Attack - Hand-To-Hand","damage":"1½d6 (3d6+1 / 4d6 w/STR)","range":"","input":"PD","level":"1","end":"2","active":"25","base":"25","XMLID":"HKA","strMod":true,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[{"name":"No Name Supplied","uid":1650115934149,"type":"+½ d6","damage":"1½d6 (3d6+1 / 4d6 w/STR)","range":"","input":"","level":"0"}]},
+	{"name":"Tendrils of the Night","uid":1649969374486,"type":"Darkness","damage":"4m radius","range":"200m","input":"Sight Group","level":"4","end":"0","active":"30","base":"20","XMLID":"DARKNESS","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":true,"special":false},"modifiers":[{"value":"-½","name":"","uid":1650459071288,"type":"Focus","damage":"4m radius","range":"200m","input":"OIF","level":"0"},{"value":"+½","name":"","uid":1650459071294,"type":"Reduced Endurance","damage":"4m radius","range":"200m","input":"0 END","level":"0"}],"adders":[]},
+	{"name":"Wings","uid":1649689246303,"type":"Flight","damage":"30m","range":"","input":"","level":"30","end":"[1 cc]","active":"30","base":"30","XMLID":"FLIGHT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":true,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-0","name":"","uid":1650459112519,"type":"Charges","damage":"30m","range":"","input":"1","level":"0"}],"adders":[]},
+	{"name":"No Name Supplied","uid":1649719074447,"type":"","damage":"","range":"","input":"","level":"0","end":"","active":"0","base":"0","XMLID":"GENERIC_OBJECT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1650116130423,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Biosteel Strike","uid":1649948959636,"type":"Hand-To-Hand Attack","damage":"3d6","range":"","input":"","level":"3","end":"1","active":"15","base":"15","XMLID":"HANDTOHANDATTACK","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1650115696137,"type":"Hand-To-Hand Attack","damage":"3d6","range":"","input":"","level":"0"},{"value":"-½","name":"","uid":1650115696164,"type":"Focus","damage":"3d6","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Biosteel Suit Enhancement I","uid":1649950076610,"type":"Skill Levels","damage":"","range":"","input":"with any three pre-defined Skills","level":"1","end":"","active":"3","base":"3","XMLID":"SKILL_LEVELS","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"","uid":1650138083852,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Combat System I","uid":1650061003917,"type":"Combat Skill Levels","damage":"","range":"","input":"with a small group of attacks","level":"2","end":"","active":"6","base":"6","XMLID":"COMBAT_LEVELS","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Combat System II","uid":1650061022765,"type":"Combat Skill Levels","damage":"","range":"","input":"with a small group of attacks","level":"2","end":"","active":"6","base":"6","XMLID":"COMBAT_LEVELS","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Density Enhancement","uid":1649854986455,"type":"STR","damage":"","range":"","input":"","level":"10","end":"1","active":"10","base":"10","XMLID":"STR","strMod":false,"class":{"attack":true,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1650115716069,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Interdimensional Weave","uid":1650115288454,"type":"SPD","damage":"","range":"","input":"","level":"2","end":"","active":"20","base":"20","XMLID":"SPD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[],"adders":[]},
+	{"name":"Night Vision","uid":1649634760536,"type":"Ultraviolet Perception","damage":"","range":"","input":"","level":"0","end":"0","active":"5","base":"5","XMLID":"ULTRAVIOLETPERCEPTION","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"","uid":1650115733280,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"}],"adders":[]},
+	{"name":"Prototype Biosteel Armor","uid":1649624393538,"type":"Resistant Protection","damage":"","range":"","input":"","level":"24","end":"0","active":"45","base":"36","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-½","name":"","uid":1650115744823,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"},{"value":"+¼","name":"","uid":1650115744825,"type":"Hardened","damage":"","range":"","input":"","level":"1"},{"value":"-½","name":"","uid":1650115744830,"type":"Ablative","damage":"","range":"","input":"BODY Only","level":"0"}],"adders":[]},
+	{"name":"Radar Sense","uid":1649848774542,"type":"Radar","damage":"","range":"","input":"","level":"0","end":"[1 cc]","active":"35","base":"35","XMLID":"RADAR","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":true,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"","uid":1650459015590,"type":"Focus","damage":"","range":"","input":"OIF","level":"0"},{"value":"-¼","name":"","uid":1650459015674,"type":"Charges","damage":"","range":"","input":"1","level":"0"},{"value":"-½","name":"","uid":1650459015682,"type":"Sense Affected As More Than One Sense","damage":"","range":"","input":"[very common Sense]","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1651531258760,"type":"Discriminatory","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1651531258761,"type":"Increased Arc Of Perception (360 Degrees)","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1651531258762,"type":"Penetrative","damage":"","range":"","input":"","level":"0"}]},
+	{"name":"Reflective Eye Protection","uid":1649625401535,"type":"Flash Defense","damage":"(4 points)","range":"","input":"Sight Group","level":"4","end":"0","active":"4","base":"4","XMLID":"FLASHDEFENSE","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":true},"modifiers":[{"value":"-½","name":"","uid":1650115778365,"type":"Focus","damage":"(4 points)","range":"","input":"OIF","level":"0"}],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
+"rolls":[
+	{"name":"Razor Wing Swipe","uid":1649859933415,"gameEdition":6,"tool":"1½d6 (3d6+1 / 4d6 w/STR), Killing Attack - Hand-To-Hand (vs. PD) , 2 end.","diceMod":1,"dice":3,"halfDice":false,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0},
+	{"name":"Tendrils of the Night","uid":1649969374486,"gameEdition":6,"tool":"4m radius, Darkness (vs. Sight Group) 200m, 0 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Biosteel Strike","uid":1649948959636,"gameEdition":6,"tool":"3d6, Hand-To-Hand Attack , 1 end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Combat System I","uid":1650061003917,"gameEdition":6,"tool":"Combat Skill Levels (vs. with a small group of attacks) ,  end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Combat System II","uid":1650061022765,"gameEdition":6,"tool":"Combat Skill Levels (vs. with a small group of attacks) ,  end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Density Enhancement","uid":1649854986455,"gameEdition":6,"tool":"STR , 1 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+"lightningReflex":[
+	{"name":"+6 DEX to act first with All HTH Attacks","levels":6,"tool":"Lightning Reflexes (+6 DEX to act first with All HTH Attacks)","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
