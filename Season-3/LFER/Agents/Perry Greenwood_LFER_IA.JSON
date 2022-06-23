@@ -1,0 +1,216 @@
+{
+"appversion":"20220312",
+"exportid":"20220622191324",
+"name":"LFER Infultration Agent",
+"playername":"GM",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":15,"roll":"12-","shortname":"str","name":"Strength","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"HTH Damage 3d6  END [3]"},
+"dex":{"value":14,"roll":"12-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":14,"roll":"12-","mod":0},"secondary":{"value":14,"roll":"12-","mod":0},"notes":""},
+"con":{"value":14,"roll":"12-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":14,"roll":"12-","mod":0},"secondary":{"value":14,"roll":"12-","mod":0},"notes":""},
+"int":{"value":13,"roll":"12-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":"PER Roll 12-"},
+"ego":{"value":10,"roll":"11-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":10,"roll":"11-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"PRE Attack: 2d6"},
+"spd":{"value":3,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":"Phases: 4, 8, 12"},
+"ocv":{"value":4,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":4,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":3,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":4,"roll":"10-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":"4 PD (0 rPD)"},
+"pdr":{"value":0,"roll":"10-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":0,"roll":"10-","mod":0},"notes":"4 PD (0 rPD)"},
+"ed":{"value":4,"roll":"10-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":"4 ED (0 rED)"},
+"edr":{"value":4,"roll":"10-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":"4 ED (0 rED)"},
+"per":{"value":13,"roll":"12-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"12-","mod":0},"secondary":{"value":0,"roll":"12-","mod":0},"notes":""},
+"rec":{"value":5,"roll":"10-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":5,"roll":"10-","mod":0},"secondary":{"value":5,"roll":"10-","mod":0},"notes":""},
+"body":{"value":12,"roll":"11-","shortname":"body","name":"Body","current":"primary","primary":{"value":12,"roll":"11-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":""},
+"end":{"value":30,"roll":"15-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"stun":{"value":30,"roll":"15-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":30,"roll":"15-","mod":0},"secondary":{"value":30,"roll":"15-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"12-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 12-"},
+	{"name":"Climbing ","stat":"DEX","everyman":true,"familiarity":true,"proficiency":false,"roll":"8-","uid":1655745565341,"type":"Climbing","input":"","level":"0","active":"0","base":"0","XMLID":"CLIMBING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Climbing 8-"},
+	{"name":"Conversation ","stat":"PRE","everyman":true,"familiarity":true,"proficiency":false,"roll":"8-","uid":1655745567657,"type":"Conversation","input":"","level":"0","active":"0","base":"0","XMLID":"CONVERSATION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Conversation 8-"},
+	{"name":"Deduction ","stat":"INT","everyman":true,"familiarity":true,"proficiency":false,"roll":"8-","uid":1655745568791,"type":"Deduction","input":"","level":"0","active":"0","base":"0","XMLID":"DEDUCTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Deduction 8-"},
+	{"name":"AK (Home country or Region) ","stat":"GENERAL","everyman":true,"familiarity":true,"proficiency":false,"roll":"8-","uid":1655745570004,"type":"Knowledge Skill","input":"Home country or Region","level":"0","active":"0","base":"0","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"AK: Home country or Region 8-"},
+	{"name":"KS: Players Choice ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1655745572998,"type":"KS","input":"","level":"0","active":"0","base":"0","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[{"XMLID":"GENERIC_OBJECT","name":"","uid":1655745572997,"cost":"-2","type":"","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"KS (Custom Adder) 11-"},
+	{"name":"KS: Another Players Choice ","stat":"GENERAL","everyman":true,"familiarity":true,"proficiency":false,"roll":"8-","uid":1655745574280,"type":"KS","input":"","level":"0","active":"0","base":"0","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS 8-"},
+	{"name":"Language: Native Tongue ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1655745575519,"type":"Language","input":"idiomatic","level":"0","active":"5","base":"5","XMLID":"LANGUAGES","modifiers":[],"adders":[{"XMLID":"LITERACY","name":"","uid":1655745575510,"cost":"1","type":"literate","input":"","level":"0"}],"option":"idiomatic","optionAlias":"idiomatic","optionID":"IDIOMATIC","text":"Language (idiomatic; literate) (5 Active Points)"},
+	{"name":"Paramedics ","stat":"INT","everyman":true,"familiarity":true,"proficiency":false,"roll":"8-","uid":1655745576831,"type":"Paramedics","input":"","level":"0","active":"0","base":"0","XMLID":"PARAMEDICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Paramedics 8-"},
+	{"name":"Persuasion ","stat":"PRE","everyman":true,"familiarity":true,"proficiency":false,"roll":"8-","uid":1655745578185,"type":"Persuasion","input":"","level":"0","active":"0","base":"0","XMLID":"PERSUASION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Persuasion 8-"},
+	{"name":"TF ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1655745583818,"type":"Transport Familiarity","input":"","level":"0","active":"0","base":"0","XMLID":"TRANSPORT_FAMILIARITY","modifiers":[],"adders":[{"XMLID":"COMMONMOTORIZED","name":"","uid":1655745583746,"cost":"2","type":"Common Motorized Ground Vehicles","input":"","level":"0"},{"XMLID":"GENERIC_OBJECT","name":"","uid":1655745583747,"cost":"-2","type":"","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"TF: Common Motorized Ground Vehicles, Custom Adder"},
+	{"name":"Acting ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1655745564004,"type":"Acting","input":"","level":"0","active":"3","base":"3","XMLID":"ACTING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Acting 11-"},
+	{"name":"Breakfall ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1655748822758,"type":"Breakfall","input":"","level":"0","active":"3","base":"3","XMLID":"BREAKFALL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Breakfall 12-"},
+	{"name":"Combat Driving ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1655747430305,"type":"Combat Driving","input":"","level":"0","active":"3","base":"3","XMLID":"COMBAT_DRIVING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Combat Driving 12-"},
+	{"name":"Concealment ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1655745566515,"type":"Concealment","input":"","level":"0","active":"3","base":"3","XMLID":"CONCEALMENT","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Concealment 12-"},
+	{"name":"Interrogation ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1655747519801,"type":"Interrogation","input":"","level":"0","active":"3","base":"3","XMLID":"INTERROGATION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Interrogation 11-"},
+	{"name":"PS: LFER Agent ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1655745579461,"type":"Professional Skill","input":"","level":"0","active":"2","base":"2","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS 11-"},
+	{"name":"Shadowing ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1655745580696,"type":"Shadowing","input":"","level":"0","active":"3","base":"3","XMLID":"SHADOWING","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Shadowing 12-"},
+	{"name":"Stealth ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1655745581909,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 12-"},
+	{"name":"Tactics ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1655747597834,"type":"Tactics","input":"","level":"0","active":"3","base":"3","XMLID":"TACTICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Tactics 12-"},
+	{"name":"Teamwork ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1655747600678,"type":"Teamwork","input":"","level":"0","active":"3","base":"3","XMLID":"TEAMWORK","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Teamwork 12-"},
+	{"name":"WF ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1655747611257,"type":"Weapon Familiarity","input":"","level":"0","active":"7","base":"7","XMLID":"WEAPON_FAMILIARITY","modifiers":[],"adders":[{"XMLID":"BEAMWEAPONS","name":"","uid":1655747697896,"cost":"2","type":"Beam Weapons","input":"","level":"0"},{"XMLID":"ENERGYWEAPONS","name":"","uid":1655747697900,"cost":"2","type":"Energy Weapons","input":"","level":"0"},{"XMLID":"SMALLARMS","name":"","uid":1655747713043,"cost":"2","type":"Small Arms","input":"","level":"0"},{"XMLID":"VEHICLEWEAPONS","name":"","uid":1655747717889,"cost":"1","type":"Vehicle Weapons","input":"","level":"0"}],"option":"","optionAlias":"","optionID":"","text":"WF: Beam Weapons, Energy Weapons, Small Arms, Vehicle Weapons"},
+	{"name":"Combat Skill Levels: LFER Weapon Training ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1655747733398,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"2","active":"6","base":"6","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[],"option":"with a small group of attacks","optionAlias":"with a small group of attacks","optionID":"TIGHT","text":"+2 with a small group of attacks"}],
+"talents":[],
+"perks":[],
+"disads":[
+	{"name":"Social Complication","roll":"","uid":1652277407418,"type":"Social Complication","input":"Subject to Orders","level":"0","active":"20","base":"20","XMLID":"SOCIALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1652277560476,"type":"Circumstances Occur","input":"Very Frequently","level":"0"},{"name":"No Name Supplied","uid":1652277560482,"type":"Effects of Restrictions","input":"Major","level":"0"}]},
+	{"name":"Hunted","roll":"","uid":1652277458845,"type":"Hunted","input":"LFER Council","level":"0","active":"10","base":"10","XMLID":"HUNTED","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1655748112914,"type":"Appearance","input":"Infrequently","level":"0"},{"name":"No Name Supplied","uid":1655748112920,"type":"Capabilities","input":"More Powerful","level":"0"},{"name":"No Name Supplied","uid":1655748112926,"type":"Motivation","input":"Watching","level":"0"},{"name":"No Name Supplied","uid":1655748112927,"type":"Extensive Non-Combat Influence","input":"","level":"0"}]},
+	{"name":"Dependence","roll":"","uid":1655752029112,"type":"Dependence","input":"Infultration Serum","level":"0","active":"0","base":"0","XMLID":"DEPENDENCE","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1655752057545,"type":"Effect","input":"Takes 1d6 Damage","level":"0"},{"name":"No Name Supplied","uid":1655752057553,"type":"Dependent Substance Is","input":"Difficult To Obtain","level":"0"},{"name":"No Name Supplied","uid":1655752057569,"type":"Time Before Suffering Effects","input":"1 Day","level":"0"}]},
+	{"name":"Psychological Complication","roll":"","uid":1652277557598,"type":"Psychological Complication","input":"Appropriate Moral Complciation","level":"0","active":"15","base":"15","XMLID":"PSYCHOLOGICALLIMITATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1652277677658,"type":"Situation Is","input":"Common","level":"0"},{"name":"No Name Supplied","uid":1652277677664,"type":"Intensity Is","input":"Strong","level":"0"}]}],
+"combatlevels":[
+	{"name":"Combat Skill Levels","roll":"","uid":1655747733398,"type":"Combat Skill Levels","input":"with a small group of attacks","level":"2","active":"6","base":"6","XMLID":"COMBAT_LEVELS","modifiers":[],"adders":[]}],
+"powers":[
+	{"name":"Infultration Serum","uid":1655748867146,"type":"Shape Shift","damage":"","range":"","input":"Sight Group","level":"0","end":"0","active":"49","base":"33","XMLID":"SHAPESHIFT","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":true,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+½","name":"","uid":1655751729779,"type":"Reduced Endurance","damage":"","range":"","input":"0 END","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1655751729768,"type":"","damage":"","range":"","input":"","level":"0"},{"name":"No Name Supplied","uid":1655751729774,"type":"Variety of Shapes","damage":"","range":"","input":"any shape","level":"0"},{"name":"No Name Supplied","uid":1655751738913,"type":"Imitation","damage":"","range":"","input":"","level":"0"}]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false},
+	{"name":"Aikido Throw","gameEdition":6 ,"ocvMod":0,"dcvMod":1,"dice":3,"halfDice":false,"killingAttack":false,"effect":"3d6 +v/10, Target Falls","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"3","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Aikido Throw:½ Phase, +0 OCV, +1 DCV, 3d6 +v/10, Target Falls","rngMod":0, "abort":false
+	},{"name":"Boxing Cross","gameEdition":6 ,"ocvMod":0,"dcvMod":2,"dice":3,"halfDice":false,"killingAttack":false,"effect":"5d6 Strike","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Boxing Cross:½ Phase, +0 OCV, +2 DCV, 5d6 Strike","rngMod":0, "abort":false
+	},{"name":"Choke","gameEdition":6 ,"ocvMod":-2,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Grab One Limb; 2d6 NND","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Choke:½ Phase, -2 OCV, +0 DCV, Grab One Limb; 2d6 NND","rngMod":0, "abort":false
+	},{"name":"Escape","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"30 STR vs. Grabs","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Escape:½ Phase, +0 OCV, +0 DCV, 30 STR vs. Grabs","rngMod":0, "abort":false
+	},{"name":"Hold","gameEdition":6 ,"ocvMod":-1,"dcvMod":-1,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Grab Two Limbs, 25 STR for holding on","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"3","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Hold:½ Phase, -1 OCV, -1 DCV, Grab Two Limbs, 25 STR for holding on","rngMod":0, "abort":false
+	},{"name":"Judo Disarm","gameEdition":6 ,"ocvMod":-1,"dcvMod":1,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Disarm; 25 STR to Disarm","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Judo Disarm:½ Phase, -1 OCV, +1 DCV, Disarm; 25 STR to Disarm","rngMod":0, "abort":false
+	},{"name":"Karate ＂Chop＂","gameEdition":6 ,"ocvMod":-2,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"HKA 1½d6","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Karate ＂Chop":½ Phase, -2 OCV, +0 DCV, HKA 1½d6","rngMod":0, "abort":false
+	},{"name":"Kung Fu Block","gameEdition":6 ,"ocvMod":2,"dcvMod":2,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Block, Abort","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Kung Fu Block:½ Phase, +2 OCV, +2 DCV, Block, Abort","rngMod":0, "abort":true
+	}],
+"rolls":[],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
