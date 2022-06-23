@@ -1,0 +1,211 @@
+{
+"appversion":"20220312",
+"exportid":"20220622190829",
+"name":"Dr. Samuel Moses",
+"playername":"",
+"version":3.1,
+"edition":6,
+"stats":{
+"siz":{"value":0,"roll":"","shortname":"siz","name":"Size","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"str":{"value":10,"roll":"11-","shortname":"str","name":"Strength","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":"HTH Damage 2d6  END [1]"},
+"dex":{"value":18,"roll":"13-","shortname":"dex","name":"Dexterity","current":"primary","primary":{"value":18,"roll":"13-","mod":0},"secondary":{"value":18,"roll":"13-","mod":0},"notes":""},
+"con":{"value":15,"roll":"12-","shortname":"con","name":"Constitution","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":""},
+"int":{"value":23,"roll":"14-","shortname":"int","name":"Intelligence","current":"primary","primary":{"value":23,"roll":"14-","mod":0},"secondary":{"value":23,"roll":"14-","mod":0},"notes":"PER Roll 14-"},
+"ego":{"value":10,"roll":"11-","shortname":"ego","name":"Ego","current":"primary","primary":{"value":10,"roll":"11-","mod":0},"secondary":{"value":10,"roll":"11-","mod":0},"notes":""},
+"com":{"value":0,"roll":"","shortname":"com","name":"Comliness","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"},
+"pre":{"value":15,"roll":"12-","shortname":"pre","name":"Presence","current":"primary","primary":{"value":15,"roll":"12-","mod":0},"secondary":{"value":15,"roll":"12-","mod":0},"notes":"PRE Attack: 3d6"},
+"spd":{"value":4,"roll":"10-","shortname":"spd","name":"Speed","current":"primary","primary":{"value":4,"roll":"10-","mod":0},"secondary":{"value":4,"roll":"10-","mod":0},"notes":"Phases: 3, 6, 9, 12"},
+"ocv":{"value":6,"roll":"10-","shortname":"ocv","name":"Offensive Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"dcv":{"value":6,"roll":"10-","shortname":"dcv","name":"Defensive Combat Value","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"10-","mod":0},"notes":""},
+"omcv":{"value":3,"roll":"10-","shortname":"omcv","name":"Offensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"dmcv":{"value":3,"roll":"10-","shortname":"dmcv","name":"Defensive Mental Combat Value","current":"primary","primary":{"value":3,"roll":"10-","mod":0},"secondary":{"value":3,"roll":"10-","mod":0},"notes":""},
+"pd":{"value":6,"roll":"10-","shortname":"pd","name":"Physical Defence","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":"6/12 PD (0/6 rPD)"},
+"pdr":{"value":0,"roll":"10-","shortname":"pdr","name":"Physical Resistant Defence","current":"primary","primary":{"value":0,"roll":"10-","mod":0},"secondary":{"value":6,"roll":"11-","mod":0},"notes":"6/12 PD (0/6 rPD)"},
+"ed":{"value":6,"roll":"10-","shortname":"ed","name":"Energy Defence","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":"6/12 ED (0/6 rED)"},
+"edr":{"value":6,"roll":"10-","shortname":"edr","name":"Energy Resistant Defence","current":"primary","primary":{"value":6,"roll":"10-","mod":0},"secondary":{"value":12,"roll":"11-","mod":0},"notes":"6/12 ED (0/6 rED)"},
+"per":{"value":23,"roll":"14-","shortname":"per","name":"Perception Roll","current":"primary","primary":{"value":0,"roll":"14-","mod":0},"secondary":{"value":0,"roll":"14-","mod":0},"notes":""},
+"rec":{"value":8,"roll":"11-","shortname":"rec","name":"Recovery","current":"primary","primary":{"value":8,"roll":"11-","mod":0},"secondary":{"value":8,"roll":"11-","mod":0},"notes":""},
+"body":{"value":13,"roll":"12-","shortname":"body","name":"Body","current":"primary","primary":{"value":13,"roll":"12-","mod":0},"secondary":{"value":13,"roll":"12-","mod":0},"notes":""},
+"end":{"value":40,"roll":"17-","shortname":"end","name":"Endurance","current":"primary","primary":{"value":40,"roll":"17-","mod":0},"secondary":{"value":40,"roll":"17-","mod":0},"notes":""},
+"stun":{"value":40,"roll":"17-","shortname":"stun","name":"Stun","current":"primary","primary":{"value":40,"roll":"17-","mod":0},"secondary":{"value":40,"roll":"17-","mod":0},"notes":""},
+"def":{"value":0,"roll":"","shortname":"def","name":"Defence","current":"primary","primary":{"value":0,"roll":"","mod":0},"secondary":{"value":0,"roll":"","mod":0},"notes":"NO STAT FOUND"}},
+"movement":{
+"run":{"current":"primary","combat":"12m","noncombat":"24m","primary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"secondary":{"combat":{"description":"12m","value":12},"noncombat":{"description":"24m","value":24}},"icon":"ui_run","notes":""},
+"swim":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_swim","notes":""},
+"leap":{"current":"primary","combat":"4m","noncombat":"8m","primary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"secondary":{"combat":{"description":"4m/2m","value":4},"noncombat":{"description":"8m","value":8}},"icon":"ui_leap","notes":"4m forward, 2m upward"}},
+"skills":[
+	{"name":"Perception ","roll":"14-","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"uid":1111111111111,"type":"Perception","input":"","level":"0","active":"0","base":"0","XMLID":"PERCEPTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Perception 14-"},
+	{"name":"Acrobatics ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1655675089885,"type":"Acrobatics","input":"","level":"0","active":"3","base":"3","XMLID":"ACROBATICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Acrobatics 13-"},
+	{"name":"Breakfall ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1655675072149,"type":"Breakfall","input":"","level":"0","active":"3","base":"3","XMLID":"BREAKFALL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Breakfall 13-"},
+	{"name":"Deduction ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1655675116873,"type":"Deduction","input":"","level":"0","active":"3","base":"3","XMLID":"DEDUCTION","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Deduction 14-"},
+	{"name":"Inventor ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1655674997846,"type":"Inventor","input":"","level":"0","active":"3","base":"3","XMLID":"INVENTOR","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Inventor 14-"},
+	{"name":"KS (The Scientific World) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1655675036828,"type":"KS","input":"The Scientific World","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: The Scientific World 11-"},
+	{"name":"KS (The Superhuman World) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1655674880787,"type":"KS","input":"The Superhuman World","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: The Superhuman World 11-"},
+	{"name":"KS (Martial Arts) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1655675052796,"type":"KS","input":"Martial Arts","level":"0","active":"2","base":"2","XMLID":"KNOWLEDGE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"KS: Martial Arts 11-"},
+	{"name":"Language (English) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1655675007290,"type":"Language","input":"Englishidiomatic","level":"0","active":"4","base":"4","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"idiomatic","optionAlias":"idiomatic","optionID":"IDIOMATIC","text":"Language: English (idiomatic)"},
+	{"name":"Language (Afrikaans) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"","uid":1655675020003,"type":"Language","input":"Afrikaansfluent conversation","level":"0","active":"2","base":"2","XMLID":"LANGUAGES","modifiers":[],"adders":[],"option":"fluent conversation","optionAlias":"fluent conversation","optionID":"FLUENT","text":"Language: Afrikaans (fluent conversation)"},
+	{"name":"Oratory ","stat":"PRE","everyman":false,"familiarity":false,"proficiency":false,"roll":"12-","uid":1655674933693,"type":"Oratory","input":"","level":"0","active":"3","base":"3","XMLID":"ORATORY","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Oratory 12-"},
+	{"name":"Paramedics ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1655675131374,"type":"Paramedics","input":"","level":"0","active":"3","base":"3","XMLID":"PARAMEDICS","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Paramedics 14-"},
+	{"name":"PS (Instructor) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1655674918735,"type":"Professional Skill","input":"Instructor","level":"0","active":"2","base":"2","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Instructor 11-"},
+	{"name":"PS (Scientist) ","stat":"GENERAL","everyman":false,"familiarity":false,"proficiency":false,"roll":"11-","uid":1655674924809,"type":"Professional Skill","input":"Scientist","level":"0","active":"2","base":"2","XMLID":"PROFESSIONAL_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"PS: Scientist 11-"},
+	{"name":"Science Skill (Biology) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1655674386422,"type":"Science Skill","input":"Biology","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill: Biology 14-"},
+	{"name":"Science Skill (Chemistry) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1655674377914,"type":"Science Skill","input":"Chemistry","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill: Chemistry 14-"},
+	{"name":"Science Skill (Genetics) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1655674582957,"type":"Science Skill","input":"Genetics","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill: Genetics 14-"},
+	{"name":"Science Skill (Medicine ) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1655674642741,"type":"Science Skill","input":"Medicine ","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill: Medicine  14-"},
+	{"name":"Science Skill (Nanotechnology) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1655674557980,"type":"Science Skill","input":"Nanotechnology","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill: Nanotechnology 14-"},
+	{"name":"Science Skill (Pharmacology/Toxicology) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1655674871760,"type":"Science Skill","input":"Pharmacology/Toxicology","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill: Pharmacology/Toxicology 14-"},
+	{"name":"Science Skill (Physics) ","stat":"INT","everyman":false,"familiarity":false,"proficiency":false,"roll":"14-","uid":1655674813540,"type":"Science Skill","input":"Physics","level":"0","active":"3","base":"3","XMLID":"SCIENCE_SKILL","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Science Skill: Physics 14-"},
+	{"name":"Stealth ","stat":"DEX","everyman":false,"familiarity":false,"proficiency":false,"roll":"13-","uid":1655675080895,"type":"Stealth","input":"","level":"0","active":"3","base":"3","XMLID":"STEALTH","modifiers":[],"adders":[],"option":"","optionAlias":"","optionID":"","text":"Stealth 13-"}],
+"talents":[],
+"perks":[
+	{"name":"Positive Reputation ","roll":"","uid":1655674972541,"type":"Positive Reputation","input":"Brilliant scientist","level":"2","active":"4","base":"4","XMLID":"REPUTATION","modifiers":[],"adders":[{"name":"No Name Supplied","uid":1655674993306,"type":"How Widely Known","input":"A large group","level":"0"},{"name":"No Name Supplied","uid":1655674993312,"type":"How Well Known","input":"11-","level":"0"}]},
+	{"name":"Contact 11-","roll":"11-","uid":1655675518477,"type":"Contact","input":"LFER","level":"2","active":"6","base":"2","XMLID":"CONTACT","modifiers":[{"value":"x3","name":"","uid":1655675543249,"type":"Organization Contact","input":"","level":"0"}],"adders":[]}],
+"disads":[],
+"combatlevels":[],
+"powers":[
+	{"name":"Moses Serum","uid":1655675983566,"type":"Aid","damage":"3d6+1 (standard effect: 10 points)","range":"","input":"STR, OCV, DCV, PD and ED","level":"3","end":"[4]","active":"60","base":"20","XMLID":"AID","strMod":false,"class":{"attack":false,"mental":false,"adjustment":true,"bodyaffecting":false,"sensory":false,"move":false,"defense":false,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"+2","name":"","uid":1655677653153,"type":"Expanded Effect (x5 Characteristics or Powers simultaneously)","damage":"3d6+1 (standard effect: 10 points)","range":"","input":"","level":"5"},{"value":"-¾","name":"","uid":1655677653186,"type":"Focus","damage":"3d6+1 (standard effect: 10 points)","range":"","input":"IAF","level":"0"},{"value":"-1","name":"","uid":1655677653252,"type":"Charges","damage":"3d6+1 (standard effect: 10 points)","range":"","input":"4","level":"0"}],"adders":[{"name":"No Name Supplied","uid":1655677653152,"type":"+1 pip","damage":"3d6+1 (standard effect: 10 points)","range":"","input":"","level":"0"}]},
+	{"name":"Undercover Armor","uid":1655675764337,"type":"Resistant Protection","damage":"","range":"","input":"","level":"12","end":"0","active":"18","base":"18","XMLID":"FORCEFIELD","strMod":false,"class":{"attack":false,"mental":false,"adjustment":false,"bodyaffecting":false,"sensory":false,"move":false,"defense":true,"compound":false,"senseaffecting":false,"special":false},"modifiers":[{"value":"-¼","name":"","uid":1655675798216,"type":"Focus","damage":"","range":"","input":"IIF","level":"0"}],"adders":[]}],
+"equipment":[],
+"martialArts":[	
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false},
+	{"name":"Block","gameEdition":6 ,"ocvMod":2,"dcvMod":2,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Block, Abort","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Block:½ Phase, +2 OCV, +2 DCV, Block, Abort","rngMod":0, "abort":true
+	},{"name":"Clinch","gameEdition":6 ,"ocvMod":-1,"dcvMod":-1,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Grab Two Limbs, 30 STR for holding on","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"3","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Clinch:½ Phase, -1 OCV, -1 DCV, Grab Two Limbs, 30 STR for holding on","rngMod":0, "abort":false
+	},{"name":"Escape","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"35 STR vs. Grabs","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Escape:½ Phase, +0 OCV, +0 DCV, 35 STR vs. Grabs","rngMod":0, "abort":false
+	},{"name":"Counterstrike","gameEdition":6 ,"ocvMod":2,"dcvMod":2,"dice":3,"halfDice":false,"killingAttack":false,"effect":"6d6 Strike, Must Follow Block","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Counterstrike:½ Phase, +2 OCV, +2 DCV, 6d6 Strike, Must Follow Block","rngMod":0, "abort":false
+	},{"name":"Punch","gameEdition":6 ,"ocvMod":2,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"6d6 Strike","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"4","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Punch:½ Phase, +2 OCV, +0 DCV, 6d6 Strike","rngMod":0, "abort":false
+	},{"name":"Kick","gameEdition":6 ,"ocvMod":-2,"dcvMod":1,"dice":3,"halfDice":false,"killingAttack":false,"effect":"8d6 Strike","time":"½","level":"0","toHit":true,"againstOCV":false,"toPost":false,"post":"","active":"5","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Kick:½ Phase, -2 OCV, +1 DCV, 8d6 Strike","rngMod":0, "abort":false
+	}],
+"rolls":[],
+"lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
