@@ -1,5 +1,4 @@
 ## Commandant
----
 Player: Seth Tzeentch
 
 Association: None
