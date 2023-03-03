@@ -98,8 +98,8 @@
 "martialArts":[	
 	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"killingAttack":false,"effect":"Normal Attack","time":"Â½","level":"0","active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:Â½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
 "rolls":[
-	{"name":"Mob Rush","uid":1675005896476,"gameEdition":6,"tool":"10d6, Hand-To-Hand Attack , 3 end.","diceMod":0,"dice":6,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Mob Rush","uid":1675005896476,"gameEdition":6,"tool":"10d6, Hand-To-Hand Attack , 3 end.","diceMod":0,"dice":10,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"Slimsteel","uid":1677849236074,"gameEdition":6,"tool":"Â½d6 (1Â½d6 w/STR), Killing Attack - Hand-To-Hand (vs. ED) , 0 end.","diceMod":0,"dice":1,"halfDice":true,"killingAttack":true,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0},
-	{"name":"NightMaul","uid":1464139894660,"gameEdition":6,"tool":"8d6, Hand-To-Hand Attack , 0 end.","diceMod":0,"dice":4,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+	{"name":"NightMaul","uid":1464139894660,"gameEdition":6,"tool":"8d6, Hand-To-Hand Attack , 0 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
 "lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
 }
