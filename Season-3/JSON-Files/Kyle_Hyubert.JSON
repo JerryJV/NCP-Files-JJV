@@ -54,8 +54,7 @@
 	{"name":"Waterball","type":"Blast","damage":"8d6","range":"400m","input":"ED","level":"8","end":"4","active":"40","base":"40","XMLID":"ENERGYBLAST","strMod":false},
 	{"name":"Hydrokinesis","type":"Telekinesis","damage":"(25 STR)","range":"390m","input":"","level":"25","end":"4","active":"39","base":"39","XMLID":"TELEKINESIS","strMod":true}],
 "martialArts":[
-	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"effect":"Normal Attack","time":"½","level":"0","killingAttack":false,"active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false},
-	],
+	{"name":"Other Attacks","gameEdition":6 ,"ocvMod":0,"dcvMod":0,"dice":3,"halfDice":false,"effect":"Normal Attack","time":"½","level":"0","killingAttack":false,"active":"1","targetNumber":0,"targetCheck":false,"stunMultiplierMod":0,"tool":"Other Attacks:½ Phase, +0 OCV, +0 DCV, Normal attack","toHit":true,"againstOCV":false,"toPost":false,"post":"","rngMod":0,"abort":false}],
 "rolls":[
 	{"name":"Lure of Sleep","gameEdition":6,"tool":"4d6, Mental Blast (vs. Human) LOS, 4 end.","diceMod":0,"dice":4,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"Sirens' Song","gameEdition":6,"tool":"8d6, Mental Illusions (vs. Human) LOS, 4 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
