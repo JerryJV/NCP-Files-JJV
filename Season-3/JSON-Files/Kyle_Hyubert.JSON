@@ -58,7 +58,7 @@
 "rolls":[
 	{"name":"Lure of Sleep","gameEdition":6,"tool":"4d6, Mental Blast (vs. Human) LOS, 4 end.","diceMod":0,"dice":4,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"Sirens' Song","gameEdition":6,"tool":"8d6, Mental Illusions (vs. Human) LOS, 4 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
-	{"name":"Call of the Sea","gameEdition":6,"tool":"16m, Teleportation , 4 end.","diceMod":16m,"dice":16,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
+	{"name":"Call of the Sea","gameEdition":6,"tool":"16m, Teleportation , 4 end.","diceMod":16,"dice":16,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"Lost to the Dream","gameEdition":6,"tool":"4d6 (standard effect: 12 points), Drain (vs. EGO) 400m, 4 end.","diceMod":0,"dice":4,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":"4d6 (standard effect: 12 points)","stunMultiplierMod":0},
 	{"name":"Waterball","gameEdition":6,"tool":"8d6, Blast (vs. ED) 400m, 4 end.","diceMod":0,"dice":8,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"Hydrokinesis","gameEdition":6,"tool":"(25 STR), Telekinesis 390m, 4 end.","diceMod":0,"dice":25,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":true,"stunMultiplierMod":0}],
