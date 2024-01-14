@@ -81,8 +81,7 @@
 	{"name":"Burning Foam","uid":1652202243384,"gameEdition":6,"tool":"2d6, Blast (vs. PD) , 2 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"Electric Wand","uid":1653248799067,"gameEdition":6,"tool":"6d6, Blast (vs. ED) , 5 end.","diceMod":0,"dice":6,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
 	{"name":"Muscle Rigidity Instant Disabler (＂Mister Id＂)","uid":1653248807031,"gameEdition":6,"tool":"Change Environment var., 4 end.","diceMod":0,"dice":0,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
-	{"name":"Englobing Handcuffs","uid":1653248838222,"gameEdition":6,"tool":"3d6, 6 PD/6 ED, Entangle 300m, 7 end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0},
-	{"name":"Hero Points","uid":1653248838222,"gameEdition":6,"tool":"2d6, Hero Points, 0 end.","diceMod":0,"dice":2,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
+	{"name":"Englobing Handcuffs","uid":1653248838222,"gameEdition":6,"tool":"3d6, 6 PD/6 ED, Entangle 300m, 7 end.","diceMod":0,"dice":3,"halfDice":false,"killingAttack":false,"targetNumber":0,"targetCheck":false,"strMod":false,"stunMultiplierMod":0}],
 "lightningReflex":[{"name":"Lightning Reflexes","levels":0,"tool":"No Lightning Reflexes","isActive":false}]
 }
 
